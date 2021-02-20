@@ -26,3 +26,8 @@
 .Project {
   font-size: 2rem;
 }
+
+.projectImage {
+  width: auto;
+  height: 300px;
+}
