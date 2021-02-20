@@ -6,7 +6,7 @@ function Project(props) {
         <div className="Project">
             <img className="projectImage" src={props.img} alt={props.alt}></img>
             <h2>{props.title}</h2>
-            <p>{props.description}</p>
+            {/* <p>{props.description}</p> */}
         </div>
       );
 }

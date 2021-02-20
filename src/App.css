@@ -58,7 +58,7 @@
 
 .Project {
   margin: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #F2EDE4;
   color: #333;
   border-radius: 10px;
@@ -99,10 +99,6 @@
   
   .Main {
     max-width: 100%;
-  }
-
-  .Project {
-    font-size: 1rem;
   }
 
   .projectImage {
