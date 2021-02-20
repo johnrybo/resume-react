@@ -13,7 +13,7 @@ function Main() {
             <Project title="Weather Widget" img={weatherWidget} alt="Weather Widget" description="Hemsida" />
             <Project title="Rainbow Man" img={rainbowman} alt="Rainbow Man" description="Spel" />
             <Project title="Calendar" img={calendar} alt="Calendar" description="Kalender" />
-            <Project title="JS-Lab-1" img={lab1} alt="Lab 1" description="Spel" />
+            <Project title="Interactive Text Adventure" img={lab1} alt="Lab 1" description="Spel" />
             <Project title="Gokart" img={gokart} alt="Gokart" description="Hemsida"/>
         </div>
       );
