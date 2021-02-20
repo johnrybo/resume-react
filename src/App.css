@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.Main > * {
+  margin: 1rem;
+}
+
 .Intro {
   font-size: 2rem;
 }
