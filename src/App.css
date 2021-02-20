@@ -11,17 +11,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
+  background-color: #F2EDE4;
   color: #333;
+  font-family: 'DM Serif Text', serif;
 }
 
 .Header h1 {
-  font-size: 8rem;
+  font-size: 9rem;
+  font-weight: 400;
   margin: 0;
 }
 
 .Header h2 {
   font-size: 3rem;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -38,6 +41,7 @@
 .Intro a {
   text-decoration: none;
   color: white;
+  font-weight: 600;
 }
 
 .Intro a:hover {
@@ -58,7 +62,8 @@
 
 .Project {
   font-size: 1.5rem;
-  background-color: #eee;
+  background-color: #F2EDE4;
+  color: #333;
 }
 
 .projectImage {
