@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F2EDE4;
+  background-color: #f2ede4;
   color: #333;
   font-family: 'DM Serif Text', serif;
 }
@@ -56,19 +56,20 @@
   margin-top: 1rem;
 }
 
-.Main > * {
-  margin: 1rem;
-}
-
 .Project {
+  margin: 1rem;
   font-size: 1.5rem;
   background-color: #F2EDE4;
   color: #333;
+  border-radius: 10px;
+  box-shadow: 0 10px 6px -6px #D9D4CC;
 }
 
 .projectImage {
   width: auto;
   height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 @media (max-width: 800px) {
