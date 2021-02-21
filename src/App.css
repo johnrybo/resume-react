@@ -10,6 +10,8 @@ body {
   width: 100%;
 }
 
+/*************** Header ***************/
+
 .Header {
   height: 90vh;
   display: flex;
@@ -81,6 +83,8 @@ body {
   }
 }
 
+/*************** Intro ***************/
+
 .Intro {
   display: flex;
   align-items: center;
@@ -101,6 +105,8 @@ body {
   text-decoration: underline;
 }
 
+/*************** Main ***************/
+
 .Main {
   display: flex;
   flex-wrap: wrap;
@@ -109,13 +115,18 @@ body {
   margin-top: 1rem;
 }
 
+/*************** Project ***************/
+
 .Project {
   margin: 1rem;
-  font-size: 1rem;
   background-color: #F2EDE4;
   color: #333;
   border-radius: 10px;
   box-shadow: 0 10px 6px -6px #D9D4CC;
+}
+
+.Project h2 {
+  font-size: 1.5rem;
 }
 
 .projectImage {
@@ -137,6 +148,10 @@ body {
   }
 
   .Intro {
+    font-size: 1rem;
+  }
+
+  .Project h2 {
     font-size: 1rem;
   }
 
