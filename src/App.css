@@ -23,6 +23,13 @@ body {
   font-family: 'DM Serif Text', serif;
 }
 
+.profilePic {
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+  animation: fadeIn1 2s;
+}
+
 .Header h1 {
   font-size: 10rem;
   font-weight: 400;
@@ -139,6 +146,11 @@ body {
 /*************** Media queries ***************/
 
 @media (max-width: 800px) {
+  
+  .profilePic {
+    height: 8rem;
+  }
+  
   .Header h1 {
     font-size: 6rem;
   }
@@ -159,6 +171,10 @@ body {
 
 @media (max-width: 500px) {
   
+  .profilePic {
+    height: 6rem;
+  }
+
   .Header h1 {
     font-size: 4rem;
   }
