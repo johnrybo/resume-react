@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -17,15 +22,63 @@
 }
 
 .Header h1 {
-  font-size: 9rem;
+  font-size: 10rem;
   font-weight: 400;
   margin: 0;
+  animation: fadeIn1 2s;
 }
 
 .Header h2 {
   font-size: 3rem;
   font-weight: 400;
   margin: 0;
+  animation: fadeIn2 2s;
+}
+
+.Header p {
+  font-size: 1rem;
+  margin-top: 5rem;
+  margin-bottom: .5rem;
+}
+
+.fa-arrow-down {
+  position: relative;
+  font-size: 1rem;
+  animation: moveArrow 2s infinite;
+}
+
+@keyframes fadeIn1 {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes moveArrow {
+  0% {
+    top: 0rem;
+  }
+  50% {
+    top: 1.5rem;
+  }
+  100% {
+    top: 0rem;
+  }
 }
 
 .Intro {
@@ -41,7 +94,7 @@
 .Intro a {
   text-decoration: none;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .Intro a:hover {
@@ -72,9 +125,11 @@
   border-top-right-radius: 10px;
 }
 
+/*************** Media queries ***************/
+
 @media (max-width: 800px) {
   .Header h1 {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 
   .Header h2 {
@@ -90,7 +145,7 @@
 @media (max-width: 500px) {
   
   .Header h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .Header h2 {
