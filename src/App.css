@@ -65,6 +65,7 @@ body {
   align-items: center;
   background-color: #51608c;
   font-family: "DM Serif Text", serif;
+  position: relative;
 }
 
 .Container {
@@ -74,14 +75,17 @@ body {
   align-items: center;
   width: 60%;
   height: 70%;
-  background-color: #6d799c;
+  background-color: #394464;
 }
 
 .profilePic {
-  height: 10rem;
+  height: 25%;
   width: auto;
   border-radius: 50%;
   animation: fadeIn1 2s;
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
 }
 
 .Presentation h1 {
@@ -193,6 +197,10 @@ body {
   .Presentation h2 {
     font-size: 2rem;
   }
+
+  .profilePic {
+    height: 15%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -203,15 +211,20 @@ body {
 
   .Container {
     width: 100%;
-    height: 60%;
-    justify-content: unset;
+    height: 30%;
+    justify-content: center;
     align-items: center;
-    padding: 0 0 3rem 0;
+    padding: 0;
   }
 
   .profilePic {
-    height: 8rem;
-    margin-top: 5rem;
+    height: 20%;
+    width: auto;
+    position: unset;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    bottom: unset;
+    right: unset;
   }
 
   .Presentation h1 {
@@ -234,11 +247,6 @@ body {
 @media (max-width: 500px) {
   .Presentation {
     justify-content: unset;
-  }
-
-  .profilePic {
-    height: 6rem;
-    margin: 7rem 0 2rem 0;
   }
 
   .Presentation h1 {
