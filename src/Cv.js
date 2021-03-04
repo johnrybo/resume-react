@@ -5,18 +5,6 @@ export default function Cv() {
     return (
         <div className="Cv">
 
-            <div className="work">
-                <h2 class="resumeH2">Arbetslivserfarenhet</h2>
-
-                <h3 className="resumeH3">PostNord</h3>
-                <h4 className="resumeH4">2010 - 2020</h4>
-                <h4 className="resumeH4">Brevbärare</h4>
-
-                <h3 className="resumeH3">Göteborgs universitet</h3>
-                <h4 className="resumeH4">2018</h4>
-                <h4 className="resumeH4">Studenthandledare</h4>
-            </div>
-
             <div className="education">
                 <h2 className="resumeH2">Utbildning</h2>
 
@@ -41,6 +29,20 @@ export default function Cv() {
                 <h4 className="resumeH4">2015</h4>
                 <h4 className="resumeH4">Psykologi: Grundkurs (30 hp)</h4>
             </div>
+
+            <div className="work">
+                <h2 class="resumeH2">Arbetslivserfarenhet</h2>
+
+                <h3 className="resumeH3">PostNord</h3>
+                <h4 className="resumeH4">2010 - 2020</h4>
+                <h4 className="resumeH4">Brevbärare</h4>
+
+                <h3 className="resumeH3">Göteborgs universitet</h3>
+                <h4 className="resumeH4">2018</h4>
+                <h4 className="resumeH4">Studenthandledare</h4>
+            </div>
+
+
             <div className="about">
                 <h2 className="resumeH2_2">Grejer jag kan:</h2>
                 <h4 className="resumeH4">HTML</h4>

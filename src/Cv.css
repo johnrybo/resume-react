@@ -1,12 +1,21 @@
 .Cv {
   display: grid;
   grid-template-areas:
-    "work education"
-    "about about";
-  width: 100%;
+    "education work"
+    "education about";
+  min-height: 92vh;
   height: 100%;
   background-color: #f2ede4;
   color: #333;
+}
+
+@media (max-width: 850px) {
+  .Cv {
+    grid-template-areas:
+    "education"
+    "work"
+    "about";
+  }
 }
 
 .work {
@@ -15,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .education {
@@ -23,6 +33,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .about {
