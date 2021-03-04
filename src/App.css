@@ -54,7 +54,6 @@ body {
   min-height: 92vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #51608C;
   color: #BFCDD9;
@@ -64,7 +63,7 @@ body {
 .profilePic {
   height: 10rem;
   width: auto;
-  margin: 2rem;
+  margin: 7rem 0 2rem 0;
   border-radius: 50%;
   animation: fadeIn1 2s;
 }
