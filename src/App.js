@@ -2,18 +2,18 @@ import './App.css';
 
 import { Route, Switch } from "react-router-dom";
 
+import Presentation from './Presentation';
 import Header from './Header';
-import Intro from './Intro';
 import Main from './Main';
 import Cv from './Cv';
 
 function App() {
   return (
     <div className="App">
-      <Intro />
+      <Header />
       <Switch>
         <Route exact path="/">
-          <Header />
+          <Presentation />
           <Main />
         </Route>
         <Route path="/cv">

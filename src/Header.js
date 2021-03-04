@@ -1,14 +1,25 @@
 import React from 'react';
-import profilePic from './images/foto-480w.png'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
         <div className="Header">
-            <img className="profilePic" src={profilePic} alt=''></img>
-            <h1>John Rybo</h1>
-            <h2>Frontend-utvecklare</h2>
-            <p>Scrolla vidare för att se mina projekt</p>
-            <i class="fas fa-arrow-down"></i>
+            <h3>
+                <Link to="/" >Hem</Link>
+            </h3>
+            <h3>
+                <Link to="/cv" >CV</Link>
+            </h3>
+            <h3>
+                <a href="https://github.com/johnrybo">
+                    <i class="fab fa-github"></i>
+                </a>
+            </h3>
+            <h3>
+                <a href="https://www.linkedin.com/in/johnrybo/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </h3>
         </div>
     );
 }

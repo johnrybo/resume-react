@@ -14,7 +14,28 @@ body {
 /*************** Header ***************/
 
 .Header {
-  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #333;
+  color: white;
+  min-height: 8vh;
+}
+
+.Header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.Header a:hover {
+  color: #D9D4CC;
+}
+
+/*************** Presentation ***************/
+
+.Presentation {
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,33 +48,35 @@ body {
 .profilePic {
   height: 10rem;
   width: auto;
+  margin: 2rem;
   border-radius: 50%;
   animation: fadeIn1 2s;
 }
 
-.Header h1 {
+.Presentation h1 {
   font-size: 10rem;
   font-weight: 400;
   margin: 0;
   animation: fadeIn1 2s;
 }
 
-.Header h2 {
+.Presentation h2 {
   font-size: 3rem;
   font-weight: 400;
   margin: 0;
   animation: fadeIn2 2s;
 }
 
-.Header p {
-  font-size: 1rem;
+.Presentation p {
+  font-size: 1.2rem;
   margin-top: 5rem;
   margin-bottom: .5rem;
 }
 
 .fa-arrow-down {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
   animation: moveArrow 2s infinite;
 }
 
@@ -91,26 +114,7 @@ body {
   }
 }
 
-/*************** Intro ***************/
 
-.Intro {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: #333;
-  color: white;
-  height: 10vh;
-}
-
-.Intro a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-}
-
-.Intro a:hover {
-  color: #D9D4CC;
-}
 
 /*************** Main ***************/
 
@@ -151,11 +155,11 @@ body {
     height: 8rem;
   }
   
-  .Header h1 {
+  .Presentation h1 {
     font-size: 6rem;
   }
 
-  .Header h2 {
+  .Presentation h2 {
     font-size: 2rem;
   }
 
@@ -175,11 +179,11 @@ body {
     height: 6rem;
   }
 
-  .Header h1 {
+  .Presentation h1 {
     font-size: 4rem;
   }
 
-  .Header h2 {
+  .Presentation h2 {
     font-size: 1.5rem;
   }
   
