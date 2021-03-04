@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #51608C;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #51608c;
 }
 
 .App {
   display: grid;
   grid-template-areas:
-  "header"
-  "pres"
-  "main";
+    "header"
+    "pres"
+    "main";
   width: 100%;
 }
 
@@ -19,21 +19,28 @@ body {
   grid-area: header;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: transparent;
-  color: #8697A6;
+  justify-content: center;
   min-height: 8vh;
+}
+
+.HeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #8697a6;
+  height: 100%;
+  width: 40%;
 }
 
 .Header a {
   text-decoration: none;
-  color: #8697A6;
+  color: #8697a6;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
 .Header a:hover {
-  color: #BFCDD9;
+  color: #bfcdd9;
 }
 
 /*************** Main ***************/
@@ -45,7 +52,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 5rem 0 5rem 0;
-  background-color: #8C4F2B;
+  background-color: #8c4f2b;
 }
 
 /*************** Presentation ***************/
@@ -56,15 +63,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #51608C;
-  color: #BFCDD9;
-  font-family: 'DM Serif Text', serif;
+  background-color: #51608c;
+  font-family: "DM Serif Text", serif;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 70%;
+  background-color: #6d799c;
 }
 
 .profilePic {
   height: 10rem;
   width: auto;
-  margin: 2rem;
   border-radius: 50%;
   animation: fadeIn1 2s;
 }
@@ -74,6 +89,7 @@ body {
   font-weight: 400;
   margin: 0;
   animation: fadeIn1 2s;
+  color: white;
 }
 
 .Presentation h2 {
@@ -81,12 +97,14 @@ body {
   font-weight: 400;
   margin: 0;
   animation: fadeIn2 2s;
+  color: #bfcdd9;
 }
 
 .Presentation p {
   font-size: 1.2rem;
   margin-top: 5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  color: #bfcdd9;
 }
 
 .fa-arrow-down {
@@ -94,6 +112,7 @@ body {
   font-size: 1.2rem;
   margin-bottom: 3rem;
   animation: moveArrow 2s infinite;
+  color: #bfcdd9;
 }
 
 @keyframes fadeIn1 {
@@ -135,10 +154,10 @@ body {
 .Project {
   grid-area: project;
   margin: 1rem;
-  background-color: #4D2B18;
+  background-color: #4d2b18;
   color: white;
   /* border-radius: 1rem 1rem 1rem 1rem; */
-  box-shadow: 0 10px 6px -6px #3D2213;
+  box-shadow: 0 10px 6px -6px #3d2213;
 }
 
 .Project h2 {
@@ -156,12 +175,42 @@ body {
 
 /*************** Media queries ***************/
 
+@media (max-width: 1500px) {
+  .Presentation h1 {
+    font-size: 8rem;
+  }
+
+  .Presentation h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .Presentation h1 {
+    font-size: 6rem;
+  }
+
+  .Presentation h2 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 800px) {
-  
+
+  .HeaderContainer {
+    width: 80%;
+  }
+
+  .Container {
+    width: 100%;
+    justify-content: unset;
+    align-items: center;
+  }
+
   .profilePic {
     height: 8rem;
   }
-  
+
   .Presentation h1 {
     font-size: 6rem;
   }
@@ -177,11 +226,9 @@ body {
   .Project h2 {
     font-size: 1rem;
   }
-
 }
 
 @media (max-width: 500px) {
-  
   .Presentation {
     justify-content: unset;
   }
@@ -199,6 +246,10 @@ body {
     font-size: 1.5rem;
   }
   
+  .Presentation p {
+    margin-top: 2rem;
+  }
+
   .Main {
     max-width: 100%;
   }
