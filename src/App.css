@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #666;
 }
 
 .App {
@@ -127,8 +128,8 @@ body {
   margin: 1rem;
   background-color: #F2EDE4;
   color: #333;
-  border-radius: 10px;
-  box-shadow: 0 10px 6px -6px #D9D4CC;
+  border-radius: 15px 15px 10px 10px;
+  box-shadow: 0 10px 6px -6px #333;
 }
 
 .Project h2 {
