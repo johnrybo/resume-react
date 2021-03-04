@@ -4,18 +4,9 @@
     "education work"
     "education about";
   min-height: 92vh;
-  height: 100%;
+  width: 100%;
   background-color: #f2ede4;
   color: #333;
-}
-
-@media (max-width: 850px) {
-  .Cv {
-    grid-template-areas:
-    "education"
-    "work"
-    "about";
-  }
 }
 
 .work {
@@ -67,4 +58,13 @@
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
   color: #666;
+}
+
+@media (max-width: 850px) {
+  .Cv {
+    grid-template-areas:
+    "education"
+    "work"
+    "about";
+  }
 }
