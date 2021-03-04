@@ -218,7 +218,7 @@ body {
   }
 
   .profilePic {
-    height: 20%;
+    height: 10rem;
     width: auto;
     position: unset;
     margin-bottom: 3rem;
