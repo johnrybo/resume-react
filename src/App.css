@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #666;
+  background-color: #8C4F2B;
 }
 
 .App {
@@ -17,19 +17,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #333;
-  color: white;
+  background-color: #51608C;
+  color: #8697A6;
   min-height: 8vh;
 }
 
 .Header a {
   text-decoration: none;
-  color: white;
+  color: #8697A6;
   font-size: 1.5rem;
 }
 
 .Header a:hover {
-  color: #D9D4CC;
+  color: #BFCDD9;
 }
 
 /*************** Presentation ***************/
@@ -40,8 +40,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f2ede4;
-  color: #333;
+  background-color: #51608C;
+  color: #BFCDD9;
   font-family: 'DM Serif Text', serif;
 }
 
@@ -130,21 +130,22 @@ body {
 
 .Project {
   margin: 1rem;
-  background-color: #F2EDE4;
-  color: #333;
-  border-radius: 1rem 1rem 1rem 1rem;
-  box-shadow: 0 10px 6px -6px #333;
+  background-color: #4D2B18;
+  color: white;
+  /* border-radius: 1rem 1rem 1rem 1rem; */
+  box-shadow: 0 10px 6px -6px #3D2213;
 }
 
 .Project h2 {
   font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 .projectImage {
   width: auto;
   height: 300px;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  /* border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem; */
 }
 
 /*************** Media queries ***************/

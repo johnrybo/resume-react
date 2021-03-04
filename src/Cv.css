@@ -5,8 +5,7 @@
     "education about";
   min-height: 92vh;
   width: 100%;
-  background-color: #f2ede4;
-  color: #333;
+  color: #BFCDD9;
 }
 
 .work {
@@ -15,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #51608C;
 }
 
 .education {
@@ -24,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: #51608C;
 }
 
 .about {
@@ -33,6 +32,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #51608C;
 }
 
 .Cv > * {
@@ -57,7 +57,7 @@
 .resumeH4 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  color: #666;
+  color: #8697A6;
 }
 
 @media (max-width: 850px) {
