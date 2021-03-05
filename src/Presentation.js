@@ -6,8 +6,10 @@ function Presentation() {
         <div className="Presentation">
             <img className="profilePic" src={profilePic} alt=''></img>
             <div className="Container">
-                <h1>John Rybo</h1>
-                <h2>FRONTEND-UTVECKLARE</h2>
+                <div className="Container2">
+                    <h1>John Rybo</h1>
+                    <h2>FRONTEND-UTVECKLARE</h2>
+                </div>
             </div>
             <p>Scrolla vidare för att se mina projekt</p>
             <i class="fas fa-arrow-down"></i>
