@@ -60,30 +60,12 @@
   color: #A69A94;
 }
 
-@media (max-width: 850px) {
-  .Cv {
-    grid-template-areas:
-    "education"
-    "work"
-    "about";
-  }
-
-  .Cv > * {
-    padding: 1rem;
-  }
-
-  .resumeH2 {
-    margin: 1rem 0 0 0;
-    font-size: 1.7rem;
-  }
-  
-  .resumeH2_2 {
-    margin: 1rem 0 1.5rem 0;
-    font-size: 1.7rem;
-  }
-
-  .resumeH3 {
-    margin: 1.5rem 0 1rem 0;
-    font-size: 1.3rem;
-  }
+.Brb {
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
 }

@@ -59,6 +59,35 @@
       font-size: 1rem;
     }
   }
+
+  
+@media (max-width: 850px) {
+  .Cv {
+    grid-template-areas:
+    "education"
+    "work"
+    "about";
+  }
+
+  .Cv > * {
+    padding: 1rem;
+  }
+
+  .resumeH2 {
+    margin: 1rem 0 0 0;
+    font-size: 1.7rem;
+  }
+  
+  .resumeH2_2 {
+    margin: 1rem 0 1.5rem 0;
+    font-size: 1.7rem;
+  }
+
+  .resumeH3 {
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.3rem;
+  }
+}
   
   @media (max-width: 500px) {
     .Presentation {

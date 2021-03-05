@@ -1,8 +1,3 @@
-import './css/App.css';
-import './css/Animations.css';
-import './css/MediaQueries.css';
-import './css/Cv.css';
-
 import { Route, Switch } from "react-router-dom";
 
 import Header from './Header';
