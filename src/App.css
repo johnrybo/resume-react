@@ -92,7 +92,7 @@ body {
   height: 10rem;
   width: auto;
   border-radius: 50%;
-  animation: fadeIn1 2s;
+  animation: fadeIn3 2s;
   position: absolute;
   bottom: 30%;
   right: 22%;
@@ -146,6 +146,17 @@ body {
   0% {
     opacity: 0;
     transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
   }
   100% {
     opacity: 1;
