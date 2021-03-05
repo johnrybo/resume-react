@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #51608c;
+  background-color: #D9CCC1;
 }
 
 .App {
@@ -27,20 +27,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #8697a6;
+  color: #0D0D0B;
   height: 100%;
   width: 40%;
 }
 
 .Header a {
   text-decoration: none;
-  color: #8697a6;
+  color: #0D0D0B;
+  font-family: 'Italiana', serif;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .Header a:hover {
-  color: #bfcdd9;
+  color: #A69A94;
 }
 
 /*************** Main ***************/
@@ -52,7 +53,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 5rem 0 5rem 0;
-  background-color: #8c4f2b;
+  background-color: #1D2C40;
 }
 
 /*************** Presentation ***************/
@@ -63,8 +64,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #51608c;
-  font-family: "DM Serif Text", serif;
+  background-color: #D9CCC1;
+  font-family: 'Italiana', serif;
+  font-weight: 600;
   position: relative;
 }
 
@@ -75,7 +77,7 @@ body {
   align-items: center;
   width: 60%;
   height: 70%;
-  background-color: #394464;
+  background-color: #A69A94;
 }
 
 .profilePic {
@@ -93,22 +95,22 @@ body {
   font-weight: 400;
   margin: 0;
   animation: fadeIn1 2s;
-  color: white;
+  color: #0D0D0B;
 }
 
 .Presentation h2 {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 2.5rem;
+  font-weight: 600;
   margin: 0;
   animation: fadeIn2 2s;
-  color: #bfcdd9;
+  color: #0D0D0B;
 }
 
 .Presentation p {
   font-size: 1.2rem;
   margin-top: 5rem;
   margin-bottom: 0.5rem;
-  color: #bfcdd9;
+  color: #0D0D0B;
 }
 
 .fa-arrow-down {
@@ -116,7 +118,7 @@ body {
   font-size: 1.2rem;
   margin-bottom: 3rem;
   animation: moveArrow 2s infinite;
-  color: #bfcdd9;
+  color: #0D0D0B;
 }
 
 @keyframes fadeIn1 {
@@ -158,16 +160,17 @@ body {
 .Project {
   grid-area: project;
   margin: 1rem;
-  background-color: #4d2b18;
+  background-color: #2E4159;
   color: white;
   /* border-radius: 1rem 1rem 1rem 1rem; */
-  box-shadow: 0 10px 6px -6px #3d2213;
+  box-shadow: 0 10px 6px -6px #1D2C40;
 }
 
 .Project h2 {
   font-size: 1.5rem;
   font-weight: lighter;
   text-align: center;
+  font-weight: 400;
 }
 
 .projectImage {
