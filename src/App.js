@@ -1,4 +1,6 @@
-import './App.css';
+import './css/App.css';
+import './css/Animations.css';
+import './css/MediaQueries.css';
 
 import { Route, Switch } from "react-router-dom";
 

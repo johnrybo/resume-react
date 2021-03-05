@@ -1,5 +1,5 @@
 import React from 'react'
-import './Cv.css';
+import './css/Cv.css';
 
 export default function Cv() {
     return (

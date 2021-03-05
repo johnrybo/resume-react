@@ -73,7 +73,7 @@ body {
 .Container {
   width: 50%;
   height: 70%;
-  background-image: url(./images/pattern4.jpg);
+  background-image: url(../images/pattern4.jpg);
   background-size: cover;
 }
 
@@ -142,40 +142,6 @@ body {
   }
 }
 
-@keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-
-@keyframes fadeIn3 {
-  0% {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
-  }
-}
-
-@keyframes moveArrow {
-  0% {
-    top: 0rem;
-  }
-  50% {
-    top: 1.5rem;
-  }
-  100% {
-    top: 0rem;
-  }
-}
-
 /*************** Project ***************/
 
 .Project {
@@ -198,95 +164,4 @@ body {
   height: 15rem;
   /* border-top-left-radius: 1rem;
   border-top-right-radius: 1rem; */
-}
-
-/*************** Media queries ***************/
-
-@media (max-width: 1600px) {
-  .Presentation h1 {
-    font-size: 7rem;
-  }
-
-  .Presentation h2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .Presentation h1 {
-    font-size: 5.5rem;
-  }
-
-  .profilePic {
-    height: 15%;
-  }
-}
-
-@media (max-width: 900px) {
-
-  .HeaderContainer {
-    width: 80%;
-  }
-
-  .Container {
-    width: 100%;
-    height: 30%;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-
-  .profilePic {
-    height: 10rem;
-    width: auto;
-    position: unset;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    bottom: unset;
-    right: unset;
-  }
-
-  .Presentation h1 {
-    padding-top: 1.5rem;
-    font-size: 6rem;
-  }
-
-  .Presentation h2 {
-    padding-bottom: 1.5rem;
-  }
-
-  .Intro {
-    font-size: 1rem;
-  }
-
-  .Project h2 {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .Presentation {
-    justify-content: unset;
-  }
-
-  .Presentation h1 {
-    font-size: 4rem;
-  }
-
-  .Presentation h2 {
-    font-size: 1.2rem;
-  }
-  
-  .Presentation p {
-    margin-top: 2rem;
-  }
-
-  .Main {
-    max-width: 100%;
-  }
-
-  .projectImage {
-    width: 100%;
-    height: auto;
-  }
 }
