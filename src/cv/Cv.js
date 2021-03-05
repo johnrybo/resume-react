@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/Cv.css';
 
 import Education from './Education';
 import Work from './Work';
