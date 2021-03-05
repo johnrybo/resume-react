@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from './images/foto-480w.png'
+import profilePic from '../images/foto-480w.png'
 
 function Presentation() {
     return (

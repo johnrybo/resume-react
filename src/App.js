@@ -4,10 +4,10 @@ import './css/MediaQueries.css';
 
 import { Route, Switch } from "react-router-dom";
 
-import Presentation from './Presentation';
 import Header from './Header';
-import Main from './Main';
-import Cv from './Cv';
+import Presentation from './home/Presentation';
+import Main from './home/Main';
+import Cv from './cv/Cv';
 
 function App() {
   return (
