@@ -236,7 +236,12 @@ body {
   }
 
   .Presentation h1 {
+    padding-top: 1.5rem;
     font-size: 6rem;
+  }
+
+  .Presentation h2 {
+    padding-bottom: 1.5rem;
   }
 
   .Intro {
