@@ -12,9 +12,9 @@
     .Presentation h1 {
       font-size: 5.5rem;
     }
-  
+
     .profilePic {
-      height: 15%;
+      height: 8rem;
     }
   }
   
@@ -33,13 +33,13 @@
     }
   
     .profilePic {
-      height: 10rem;
-      width: auto;
-      position: unset;
-      margin-bottom: 3rem;
-      margin-top: 3rem;
+      height: 7rem;
+      position: absolute;
       bottom: unset;
-      right: unset;
+      right: 50%;
+      transform: translateX(50%);
+      top: -5.5rem;
+      z-index: 100;
     }
   
     .Presentation h1 {
@@ -90,9 +90,7 @@
 }
   
   @media (max-width: 500px) {
-    .Presentation {
-      justify-content: unset;
-    }
+
   
     .Presentation h1 {
       font-size: 4rem;
@@ -110,8 +108,4 @@
       max-width: 100%;
     }
   
-    .projectImage {
-      width: 100%;
-      height: auto;
-    }
   }

@@ -4,8 +4,8 @@ import profilePic from '../images/foto-480w.png'
 function Presentation() {
     return (
         <div className="Presentation">
-            <img className="profilePic" src={profilePic} alt=''></img>
             <div className="Container">
+            <img className="profilePic" src={profilePic} alt=''></img>
                 <div className="Container2">
                     <h1>John Rybo</h1>
                     <h2>FRONTEND-UTVECKLARE</h2>
