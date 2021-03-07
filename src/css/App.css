@@ -137,17 +137,6 @@ body {
   color: #0D0D0B;
 }
 
-@keyframes fadeIn1 {
-  0% {
-    opacity: 0;
-    transform: translateY(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
-
 /*************** Project ***************/
 
 .Project {
