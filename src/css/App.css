@@ -78,7 +78,7 @@ body {
 .Container {
   width: 50%;
   height: 70%;
-  background-image: url(../images/pattern4.jpg);
+  background-image: url(../images/pattern2.jpg);
   background-size: cover;
   position: relative;
 }
@@ -91,7 +91,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #A69A94;
-  opacity: 0.95;
+  opacity: 0.85;
 }
 
 .profilePic {
