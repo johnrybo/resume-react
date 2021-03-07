@@ -8,15 +8,16 @@ import rainbowman from '../images/rainbowman-480w.png'
 import calendar from '../images/calendar-480w.png'
 
 function Main() {
+
     return (
         <div className="Main">
-            <Project title="Weather Widget" img={weatherWidget} alt="Weather Widget" description="Hemsida" />
-            <Project title="Rainbow Man" img={rainbowman} alt="Rainbow Man" description="Spel" />
-            <Project title="Calendar" img={calendar} alt="Calendar" description="Kalender" />
-            <Project title="Interactive Text Adventure" img={lab1} alt="Lab 1" description="Spel" />
-            <Project title="Gokart" img={gokart} alt="Gokart" description="Hemsida"/>
+            <Project title="Weather Widget" img={weatherWidget} alt="Weather Widget" description="Hemsida" gitHubUrl="https://github.com/johnrybo/miniprojekt-react-1" demoUrl="https://jmlweather.netlify.app/"/>
+            <Project title="Rainbow Man" img={rainbowman} alt="Rainbow Man" description="Spel" gitHubUrl="https://github.com/johnrybo/Rainbow-Man" demoUrl="https://rainbowman.netlify.app/"/>
+            <Project title="Calendar" img={calendar} alt="Calendar" description="Kalender" gitHubUrl="https://github.com/johnrybo/Kalender" demoUrl="https://johnrybo.github.io/Kalender/"/>
+            <Project title="Interactive Text Adventure" img={lab1} alt="Lab 1" description="Spel" gitHubUrl="https://github.com/johnrybo/Textbaserad-interaktiv-upplevelse" demoUrl="https://johnrybo.github.io/Textbaserad-interaktiv-upplevelse"/>
+            <Project title="Gokart" img={gokart} alt="Gokart" description="Hemsida" gitHubUrl="https://github.com/johnrybo/gokart" demoUrl="https://johnrybo.github.io/gokart/"/>
         </div>
-      );
+    );
 }
 
 export default Main;
