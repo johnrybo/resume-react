@@ -88,6 +88,23 @@
     margin: 1.5rem 0 1rem 0;
     font-size: 1.3rem;
   }
+
+  .Project {
+    margin: 1.5rem;
+  }
+
+  .projectImage {
+    height: 15rem;
+  }
+
+  .Project h2 {
+    font-size: 1.2rem;
+  }
+
+  .GitHubButton, .DemoButton {
+    height: 3rem;
+  }
+
 }
   
   @media (max-width: 500px) {
@@ -107,6 +124,10 @@
   
     .Main {
       max-width: 100%;
+    }
+
+    .projectImage {
+      height: 12rem;
     }
   
   }
