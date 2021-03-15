@@ -65,7 +65,7 @@ body {
 /*************** Presentation ***************/
 
 .Presentation {
-  min-height: 92vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
