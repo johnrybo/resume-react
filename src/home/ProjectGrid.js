@@ -7,9 +7,11 @@ function ProjectGrid() {
       {projects.map((project) => (
         <div className="Project">
           <h2>{project.title}</h2>
-          <img src={project.image} alt="" width="600px"/>
-          <a href={project.gitHub}>GitHub</a>
-          <a href={project.demo}>Demo</a>
+          <img src={project.image} alt="" width="600px" />
+          <div style={{height: '4rem', width: '100%', display: 'flex', justifyContent: 'space-evenly', alignItems: 'center'}}>
+            <span><a href={project.gitHub}>GitHub</a></span>
+            <span><a href={project.demo}>Demo</a></span>
+          </div>
         </div>
       ))}
     </div>
