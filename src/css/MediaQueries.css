@@ -56,7 +56,7 @@
       font-size: 1rem;
     }
   
-    .Project h2 {
+    .Projectgrid h2 {
       font-size: 1.3rem;
     }
   }
@@ -93,11 +93,11 @@
     margin: 1.5rem;
   }
 
-  .projectImage {
+  /* .projectImage {
     height: 15rem;
-  }
+  } */
 
-  .Project h2 {
+  .Projectgrid h2 {
     font-size: 1.2rem;
   }
 
