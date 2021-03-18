@@ -1,5 +1,4 @@
 import weatherWidget from './images/weatherwidget-480w.png'
-import gokart from './images/gokart-480w.png'
 import lab1 from './images/lab-1-480w.png'
 import rainbowman from './images/rainbowman-480w.png'
 import calendar from './images/calendar-480w.png'
@@ -28,11 +27,5 @@ export const projects = [
         image: calendar,
         gitHub: 'https://github.com/johnrybo/Kalender',
         demo: 'https://johnrybo.github.io/Kalender/'
-    },
-    {
-        title: 'Gokart',
-        image: gokart,
-        gitHub: 'https://github.com/johnrybo/gokart',
-        demo: 'https://johnrybo.github.io/gokart/'
     },
 ]

@@ -1,38 +1,31 @@
 .Cv {
-  display: grid;
-  grid-template-areas:
-    "education work"
-    "education about";
-  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   color: #0D0D0B;
 }
 
-.work {
-  grid-area: work;
+.Cv > * {
+  margin: 1rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #D9CCC1;
+  background-color: #367350;
+}
+
+.work {
+  grid-area: work;
 }
 
 .education {
   grid-area: education;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #D9CCC1;
 }
 
 .about {
   grid-area: about;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #D9CCC1;
 }
 
 .Cv > * {
@@ -57,7 +50,7 @@
 .resumeH4 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
-  color: #A69A94;
+  color: #0D0D0B;
 }
 
 .Brb {

@@ -6,7 +6,7 @@ import About from './About'
 
 export default function Cv() {
 
-    const ready = false;
+    const ready = true;
 
     if (ready){
         return (

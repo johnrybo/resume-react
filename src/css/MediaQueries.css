@@ -63,12 +63,6 @@
 
   
 @media (max-width: 850px) {
-  .Cv {
-    grid-template-areas:
-    "education"
-    "work"
-    "about";
-  }
 
   .Cv > * {
     padding: 1rem;
