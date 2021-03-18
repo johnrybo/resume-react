@@ -1,7 +1,6 @@
 import './css/App.css';
 import './css/Cv.css';
 import './css/Animations.css';
-import './css/MediaQueries.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

@@ -1,12 +1,12 @@
 .Cv {
   display: grid;
   grid-template-areas:
-  "education work"
-  "education about";
+    "education work"
+    "education about";
   align-items: center;
   justify-content: center;
   width: 100%;
-  color: #0D0D0B;
+  color: #0d0d0b;
 }
 
 .Cv > * {
@@ -51,7 +51,7 @@
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
   font-weight: lighter;
-  color: #0D0D0B;
+  color: #0d0d0b;
 }
 
 .Brb {
@@ -62,4 +62,22 @@
   font-size: 3rem;
   text-align: center;
   padding: 0 1rem 0 1rem;
+}
+
+/* -------------- Media queries -------------- */
+
+@media (max-width: 1200px) {
+  .Cv {
+    grid-template-areas:
+      "education"
+      "work"
+      "about";
+  }
+}
+
+@media (max-width: 500px) {
+  .Cv > * {
+    margin: 1rem 0 1rem 0;
+    width: 100vw;
+  }
 }
