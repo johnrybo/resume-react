@@ -1,77 +1,78 @@
 @media (max-width: 1600px) {
-    .Presentation h1 {
-      font-size: 7rem;
-    }
-  
-    .Presentation h2 {
-      font-size: 1.5rem;
-    }
+  .Presentation h1 {
+    font-size: 7rem;
   }
-  
-  @media (max-width: 1200px) {
-    .Presentation h1 {
-      font-size: 5.5rem;
-    }
 
-    .profilePic {
-      height: 8rem;
-    }
+  .Presentation h2 {
+    font-size: 1.5rem;
   }
-  
-  @media (max-width: 950px) {
-  
-    .HeaderContainer {
-      width: 80%;
-    }
-  
-    .Container {
-      width: 100%;
-      height: 30%;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-    }
-  
-    .profilePic {
-      height: 7rem;
-      position: absolute;
-      bottom: unset;
-      right: 50%;
-      transform: translateX(50%);
-      top: -5.5rem;
-      z-index: 100;
-      animation: none;
-    }
-  
-    .Presentation h1 {
-      padding-top: 1.5rem;
-      font-size: 6rem;
-    }
-  
-    .Presentation h2 {
-      padding-bottom: 1.5rem;
-    }
-  
-    .Intro {
-      font-size: 1rem;
-    }
-  
-    .Projectgrid h2 {
-      font-size: 1.3rem;
-    }
+}
 
-    .Cv > * {
-      width: 100%
-    }
+@media (max-width: 1200px) {
+  .Presentation h1 {
+    font-size: 5.5rem;
   }
-  
+
+  .profilePic {
+    height: 8rem;
+  }
+
+  .Cv {
+    grid-template-areas:
+      "education"
+      "work"
+      "about";
+  }
+}
+
+@media (max-width: 950px) {
+  .HeaderContainer {
+    width: 80%;
+  }
+
+  .Container {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .profilePic {
+    height: 7rem;
+    position: absolute;
+    bottom: unset;
+    right: 50%;
+    transform: translateX(50%);
+    top: -5.5rem;
+    z-index: 100;
+    animation: none;
+  }
+
+  .Presentation h1 {
+    padding-top: 1.5rem;
+    font-size: 6rem;
+  }
+
+  .Presentation h2 {
+    padding-bottom: 1.5rem;
+  }
+
+  .Intro {
+    font-size: 1rem;
+  }
+
+  .Projectgrid h2 {
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 850px) {
-
   .resumeH2 {
     margin: 1rem 0 0 0;
     font-size: 1.7rem;
   }
-  
+
   .resumeH2_2 {
     margin: 1rem 0 1.5rem 0;
     font-size: 1.7rem;
@@ -86,41 +87,41 @@
     margin: 1.5rem;
   }
 
-  /* .projectImage {
-    height: 15rem;
-  } */
-
   .Projectgrid h2 {
     font-size: 1.2rem;
   }
 
-  .GitHubButton, .DemoButton {
+  .GitHubButton,
+  .DemoButton {
     height: 3rem;
   }
-
 }
-  
-  @media (max-width: 500px) {
 
-  
-    .Presentation h1 {
-      font-size: 4rem;
-    }
-  
-    .Presentation h2 {
-      font-size: 1.2rem;
-    }
-    
-    .Presentation p {
-      margin-top: 2rem;
-    }
-  
-    .Main {
-      max-width: 100%;
-    }
-
-    .projectImage {
-      height: 12rem;
-    }
-  
+@media (max-width: 500px) {
+  .Cv > * {
+    margin: 1rem 0 1rem 0;
+    width: 100vw;
   }
+}
+
+@media (max-width: 500px) {
+  .Presentation h1 {
+    font-size: 4rem;
+  }
+
+  .Presentation h2 {
+    font-size: 1.2rem;
+  }
+
+  .Presentation p {
+    margin-top: 2rem;
+  }
+
+  .Main {
+    max-width: 100%;
+  }
+
+  .projectImage {
+    height: 12rem;
+  }
+}
