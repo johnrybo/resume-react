@@ -18,7 +18,7 @@
     }
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 950px) {
   
     .HeaderContainer {
       width: 80%;
@@ -59,14 +59,13 @@
     .Projectgrid h2 {
       font-size: 1.3rem;
     }
-  }
 
+    .Cv > * {
+      width: 100%
+    }
+  }
   
 @media (max-width: 850px) {
-
-  .Cv > * {
-    padding: 1rem;
-  }
 
   .resumeH2 {
     margin: 1rem 0 0 0;
