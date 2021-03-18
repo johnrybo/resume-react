@@ -15,8 +15,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #367350;
-  padding: 1rem;
+  background-color: #D9D1B8;
+  padding: 2rem;
 }
 
 .work {
@@ -75,9 +75,32 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .Cv > * {
     margin: 1rem 0 1rem 0;
-    width: 100vw;
+    width: 70vw;
+  }
+
+  .resumeH2 {
+    margin: 1rem 0 0 0;
+    font-size: 1.3rem;
+  }
+  
+  .resumeH2_2 {
+    margin: 1rem 0 1.5rem 0;
+    font-size: 1.3rem;
+  }
+  
+  .resumeH3 {
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  
+  .resumeH4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #0d0d0b;
   }
 }
