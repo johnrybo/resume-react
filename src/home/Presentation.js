@@ -27,7 +27,10 @@ function Presentation() {
         </div>
       </div>
       <p>Scrolla vidare för att se mina projekt</p>
-      <i class="fas fa-arrow-down"></i>
+      <motion.i
+        class="fas fa-arrow-down"
+        animate={{ y: [0, 25, 0], transition: { repeat: Infinity, duration: 2 } }}
+      ></motion.i>
     </div>
   );
 }
