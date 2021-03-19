@@ -12,11 +12,11 @@ const menuItems = [
     content: "CV",
   },
   {
-    url: "https://github.com/johnrybo",
+    url: { pathname: 'https://github.com/johnrybo' },
     content: <i class="fab fa-github"></i>,
   },
   {
-    url: "https://www.linkedin.com/in/johnrybo/",
+    url: { pathname: 'https://www.linkedin.com/in/johnrybo/' },
     content: <i class="fab fa-linkedin"></i>,
   },
 ];
