@@ -13,7 +13,7 @@ function Presentation() {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
         ></motion.img>
-        <motion.div className="Container2" animate={{}}>
+        <div className="Container2">
           <motion.h1 animate={{ rotateY: 360, transition: { duration: 2 } }}>
             John Rybo
           </motion.h1>
@@ -24,7 +24,7 @@ function Presentation() {
           >
             FRONTEND-UTVECKLARE
           </motion.h2>
-        </motion.div>
+        </div>
       </div>
       <p>Scrolla vidare för att se mina projekt</p>
       <i class="fas fa-arrow-down"></i>
