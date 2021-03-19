@@ -11,14 +11,14 @@ const menuItems = [
     url: "/cv",
     content: "CV",
   },
-  {
-    url: { pathname: 'https://github.com/johnrybo' },
-    content: <i class="fab fa-github"></i>,
-  },
-  {
-    url: { pathname: 'https://www.linkedin.com/in/johnrybo/' },
-    content: <i class="fab fa-linkedin"></i>,
-  },
+//   {
+//     url: { pathname: 'https://github.com/johnrybo' },
+//     content: <i class="fab fa-github"></i>,
+//   },
+//   {
+//     url: { pathname: 'https://www.linkedin.com/in/johnrybo/' },
+//     content: <i class="fab fa-linkedin"></i>,
+//   },
 ];
 
 function Header() {
@@ -28,11 +28,12 @@ function Header() {
         {menuItems.map((menuItem) => (
           <motion.span
             whileHover={{ scale: 1.2 }}
-            transition={{ type: "spring", stiffness: 300 }}
           >
             <Link to={menuItem.url}>{menuItem.content}</Link>
           </motion.span>
         ))}
+        <a href='https://github.com/johnrybo'><i class="fab fa-github"></i></a>
+        <a href='https://www.linkedin.com/in/johnrybo/'><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
   );
