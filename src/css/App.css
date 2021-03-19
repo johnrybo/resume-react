@@ -45,10 +45,6 @@ body {
   font-weight: 600;
 }
 
-.Header a:hover {
-  color: #F2ECE9;
-}
-
 /*************** Main ***************/
 
 .Main {
@@ -97,7 +93,7 @@ body {
   height: 10rem;
   width: auto;
   border-radius: 50%;
-  animation: fadeIn3 2s;
+  /* animation: fadeIn3 2s; */
   position: absolute;
   bottom: 2rem;
   right: -2rem;
@@ -108,7 +104,7 @@ body {
   font-size: 10rem;
   font-weight: 400;
   margin: 0;
-  animation: fadeIn1 2s;
+  /* animation: fadeIn1 2s; */
   color: #0D0D0D;
 }
 
@@ -116,7 +112,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   margin: 0;
-  animation: fadeIn2 2s;
+  /* animation: fadeIn2 2s; */
   color: #0D0D0D;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -132,7 +128,7 @@ body {
   position: relative;
   font-size: 1rem;
   margin-bottom: 3rem;
-  animation: moveArrow 2s infinite;
+  /* animation: moveArrow 2s infinite; */
   color: #404040;
 }
 
@@ -215,14 +211,15 @@ body {
   }
 
   .profilePic {
-    height: 7rem;
+    /* height: 7rem;
     position: absolute;
     bottom: unset;
-    right: 50%;
-    transform: translateX(50%);
+    right: unset;
+    left: 50%;
     top: -5.5rem;
     z-index: 100;
-    animation: none;
+    animation: none; */
+    display: none;
   }
 
   .Presentation h1 {
