@@ -3,10 +3,19 @@
   height: 100%;
 }
 
+:root {
+  --main-bg-color: #D9D5D2;
+  --main-text-color: black;
+  --container-bg-color: #BF4F45;
+  --container-text-color: white;
+  --projects-bg-color: #595147;
+  --projects-text-color: white;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #D9D5D2;
+  background-color: var(--main-bg-color);
 }
 
 .App {
@@ -32,7 +41,7 @@ body {
   left: 0;
   right: 0;
   z-index: 200;
-  background-color: #D9D5D2;
+  background-color: var(--main-bg-color);
 }
 
 .HeaderContainer {
@@ -45,7 +54,7 @@ body {
 
 .Header a {
   text-decoration: none;
-  color: black;
+  color: var(--main-text-color);
   font-family: "Italiana", serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -60,8 +69,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #D9D5D2;
-  color: black;
+  background-color: var(--main-bg-color);;
+  color: var(--main-text-color);
   font-family: "Italiana", serif;
   font-weight: 600;
 }
@@ -81,7 +90,7 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #A65132;
+  background-color: var(--container-bg-color);;
   opacity: 0.8;
 }
 
@@ -100,7 +109,7 @@ body {
   font-size: 10rem;
   font-weight: 400;
   margin: 0;
-  color: white;
+  color: var(--container-text-color);
 }
 
 /* FRONTEND-UTVECKLARE */
@@ -108,7 +117,7 @@ body {
   font-size: 1.8rem;
   font-weight: 400;
   margin: 0;
-  color: white;
+  color: var(--container-text-color);;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -131,7 +140,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #1d2c40;
+  background-color: var(--projects-bg-color);;
   width: 100%;
 }
 
@@ -140,7 +149,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--projects-text-color);
   height: 92vh;
 }
 
