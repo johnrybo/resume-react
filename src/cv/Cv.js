@@ -37,8 +37,8 @@ export default function Cv() {
         className="profilePic"
         src={profilePic}
         alt=""
-        initial={{ opacity: 0, x: 100 }}
-        animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
+        initial={{ opacity: 0, y: -25 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
       ></motion.img>
       <Education />
       <Work />
