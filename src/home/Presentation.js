@@ -2,6 +2,8 @@ import React from "react";
 import profilePic from "../images/foto-480w.png";
 import { motion } from "framer-motion";
 
+import { AiOutlineArrowDown } from "react-icons/ai";
+
 function Presentation() {
   return (
     <div className="Presentation">
@@ -30,13 +32,15 @@ function Presentation() {
         </div>
       </div>
       <p>Scrolla vidare för att se mina projekt</p>
-      <motion.i
-        class="fas fa-arrow-down"
+
+      <motion.span
         animate={{
           y: [0, 25, 0],
           transition: { repeat: Infinity, duration: 2 },
         }}
-      ></motion.i>
+      >
+        <AiOutlineArrowDown />
+      </motion.span>
     </div>
   );
 }

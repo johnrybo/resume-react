@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 function Header() {
   return (
     <div className="Header">
@@ -16,13 +18,13 @@ function Header() {
           href="https://github.com/johnrybo"
           whileHover={{ scale: 1.2 }}
         >
-          <i class="fab fa-github"></i>
+          <FaGithub />
         </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/johnrybo/"
           whileHover={{ scale: 1.2 }}
         >
-          <i class="fab fa-linkedin"></i>
+          <FaLinkedin />
         </motion.a>
       </div>
     </div>
