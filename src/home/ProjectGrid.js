@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../projects";
-import FadeInWhenVisible from "./FadeInWhenVisible";
+import FadeInWhenVisible from "../FadeInWhenVisible";
 
 import { motion } from "framer-motion";
 
