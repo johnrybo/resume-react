@@ -17,15 +17,15 @@ export const projects = [
         demo: 'https://jmlweather.netlify.app/'
     },
     {
-        title: 'Text Adventure',
-        image: lab1,
-        gitHub: 'https://github.com/johnrybo/Textbaserad-interaktiv-upplevelse',
-        demo: 'https://johnrybo.github.io/Textbaserad-interaktiv-upplevelse'
-    },
-    {
         title: 'Calendar',
         image: calendar,
         gitHub: 'https://github.com/johnrybo/Kalender',
         demo: 'https://johnrybo.github.io/Kalender/'
+    },
+    {
+        title: 'Text Adventure',
+        image: lab1,
+        gitHub: 'https://github.com/johnrybo/Textbaserad-interaktiv-upplevelse',
+        demo: 'https://johnrybo.github.io/Textbaserad-interaktiv-upplevelse'
     },
 ]

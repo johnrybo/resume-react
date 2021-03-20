@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
           <Route exact path="/">
             <Home />
