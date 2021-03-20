@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import Presentation from "./Presentation";
 import ProjectGrid from "./ProjectGrid";
 
