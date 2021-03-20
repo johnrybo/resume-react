@@ -13,9 +13,9 @@ const qualities = [
 export default function About() {
   return (
     <div className="about">
-      <h2 className="resumeH2_2">Grejer jag kan:</h2>
+      <h2>Grejer jag kan:</h2>
       {qualities.map((quality) => (
-        <h4 className="resumeH4">{quality}</h4>
+        <h4>{quality}</h4>
       ))}
     </div>
   );

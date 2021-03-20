@@ -19,25 +19,25 @@
   padding: 2rem;
 }
 
-.resumeH2 {
+.education h2, .work h2 {
   margin: 1rem 0 0 0;
   font-size: 1.8rem;
 }
 
-.resumeH2_2 {
+.about h2 {
   margin: 1rem 0 1.5rem 0;
   font-size: 1.8rem;
 }
 
-.resumeH3 {
-  margin: 1.5rem 0 1rem 0;
-  font-size: 1.4rem;
+.about h4, .education h4, .work h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
-.resumeH4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
+.education h3, .work h3 {
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.4rem;
   font-weight: lighter;
 }
 
