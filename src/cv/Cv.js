@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import profilePic from "../images/foto-480w.png";
 import Education from "./Education";
 import Work from "./Work";
 import About from "./About";
@@ -32,6 +33,13 @@ export default function Cv() {
       animate="visible"
       exit="exit"
     >
+      <motion.img
+        className="profilePic"
+        src={profilePic}
+        alt=""
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
+      ></motion.img>
       <Education />
       <Work />
       <About />

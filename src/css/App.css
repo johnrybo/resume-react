@@ -89,16 +89,6 @@ body {
   opacity: 0.8;
 }
 
-.profilePic {
-  height: 10rem;
-  width: auto;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 2rem;
-  right: -2rem;
-  z-index: 100;
-}
-
 /* John Rybo */
 .Presentation h1 {
   font-size: 8rem;
@@ -210,10 +200,6 @@ body {
   .Presentation h1 {
     font-size: 5rem;
   }
-
-  .profilePic {
-    height: 8rem;
-  }
 }
 
 @media (max-width: 950px) {
@@ -228,10 +214,6 @@ body {
     margin-top: 5rem;
     justify-content: center;
     align-items: center;
-  }
-
-  .profilePic {
-    display: none;
   }
 
   .Presentation h1 {

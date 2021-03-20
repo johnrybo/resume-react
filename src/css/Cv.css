@@ -18,6 +18,12 @@
   padding: 2rem;
 }
 
+.profilePic {
+  height: 10rem;
+  width: auto;
+  border-radius: 50%;
+}
+
 .education h2, .work h2 {
   margin: 1rem 0 0 0;
   font-size: 1.8rem;
@@ -72,6 +78,11 @@
   .Cv > * {
     margin: 1rem 0 1rem 0;
     width: 70vw;
+  }
+
+  .profilePic {
+    height: 10rem;
+    width: auto;
   }
 
   .education h2, .work h2 {

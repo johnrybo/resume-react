@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../images/foto-480w.png";
+
 import { motion } from "framer-motion";
 
 import { AiOutlineArrowDown } from "react-icons/ai";
@@ -9,13 +9,7 @@ function Presentation() {
   return (
     <div className="Presentation">
       <div className="Container">
-        <motion.img
-          className="profilePic"
-          src={profilePic}
-          alt=""
-          initial={{ opacity: 0, x: 100 }}
-          animate={{ opacity: 1, x: 0, transition: { duration: 2 } }}
-        ></motion.img>
+
         <div className="Container2">
           <motion.h1
             initial={{ y: -50, opacity: 0 }}
