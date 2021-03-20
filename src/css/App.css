@@ -48,11 +48,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 100%;
   width: 40%;
 }
 
-.Header a {
+.HeaderContainer a {
   text-decoration: none;
   color: var(--main-text-color);
   font-family: "Italiana", serif;
@@ -76,7 +75,7 @@ body {
 }
 
 .Container {
-  width: 50%;
+  width: 40%;
   height: 70%;
   background-image: url(../images/pattern2.jpg);
   background-size: cover;
@@ -106,7 +105,7 @@ body {
 
 /* John Rybo */
 .Presentation h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   font-weight: 400;
   margin: 0;
   color: var(--container-text-color);
@@ -114,11 +113,23 @@ body {
 
 /* FRONTEND-UTVECKLARE */
 .Presentation h2 {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  margin: 0;
+  margin-top: 1rem;
   color: var(--container-text-color);;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* GitHub och LinkedIn */
+.PresentationLinks {
+  margin-top: .5rem;
+}
+
+.Presentation a {
+  color: var(--main-bg-color);
+  font-size: 2rem;
+  margin: .5rem;
+  display: inline-block;
 }
 
 /* Scrolla vidare för att se mina projekt */
@@ -184,18 +195,23 @@ body {
 /* -------------- Media queries -------------- */
 
 @media (max-width: 1600px) {
+
+  .Container {
+    width: 50%;
+  }
+
   .Presentation h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .Presentation h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 1200px) {
   .Presentation h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 
   .profilePic {
@@ -226,7 +242,6 @@ body {
 
   .Presentation h1 {
     margin-top: 1.5rem;
-    font-size: 6rem;
   }
 
   .Presentation h2 {
@@ -252,7 +267,7 @@ body {
   }
 
   .Presentation h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .Presentation p {
