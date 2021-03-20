@@ -1,12 +1,11 @@
 .Cv {
-  display: grid;
-  grid-template-areas:
-    "education work"
-    "education about";
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   color: #404040;
+  margin-top: 8vh;
 }
 
 .Cv > * {

@@ -1,9 +1,7 @@
-import React from "react";
 import { motion } from "framer-motion";
 
-import Education from "./Education";
-import Work from "./Work";
-import About from "./About";
+import Presentation from "./Presentation";
+import ProjectGrid from "./ProjectGrid";
 
 const containerVariants = {
   hidden: {
@@ -18,23 +16,24 @@ const containerVariants = {
     },
   },
   exit: {
-    y: "100vh",
+    y: "100vw",
     transition: { ease: "easeInOut" },
   },
 };
 
-export default function Cv() {
+function Home() {
   return (
     <motion.div
-      className="Cv"
+      className="Home"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
       exit="exit"
     >
-      <Education />
-      <Work />
-      <About />
+      <Presentation />
+      <ProjectGrid />
     </motion.div>
   );
 }
+
+export default Home;

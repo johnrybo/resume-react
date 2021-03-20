@@ -1,30 +1,27 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 
 import Header from "./Header";
-import Presentation from "./home/Presentation";
-import Main from "./home/Main";
 import Cv from "./cv/Cv";
+import Home from './home/Home'
 
 function App() {
+
+  const location = useLocation();
+
   return (
     <div className="App">
       <Header />
-      <Switch>
-        <Route exact path="/">
-          <Presentation />
-          <Main />
-        </Route>
-        <Route path="/cv">
-          <Cv />
-        </Route>
-        <Route
-          path={["/http:", "/https:"]}
-          component={(props) => {
-            window.location.replace(props.location.pathname.substr(1));
-            return null;
-          }}
-        />
-      </Switch>
+      <AnimatePresence>
+        <Switch location={location} key={location.key}>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/cv">
+            <Cv />
+          </Route>
+        </Switch>
+      </AnimatePresence>
     </div>
   );
 }
