@@ -11,7 +11,7 @@ export const projects = [
         demo: 'https://rainbowman.netlify.app/'
     },
     {
-        title: 'Weather Widget',
+        title: 'Weather App',
         image: weatherWidget,
         gitHub: 'https://github.com/johnrybo/miniprojekt-react-1',
         demo: 'https://jmlweather.netlify.app/'

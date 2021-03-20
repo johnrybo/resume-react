@@ -9,6 +9,7 @@ function Header() {
         <motion.a whileHover={{ scale: 1.2 }}>
           <Link to="/">Hem</Link>
         </motion.a>
+        <span style={{fontSize: '1.5rem'}}>&nbsp;|&nbsp;</span>
         <motion.a whileHover={{ scale: 1.2 }}>
           <Link to="/cv">CV</Link>
         </motion.a>

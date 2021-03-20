@@ -56,7 +56,7 @@ function Presentation() {
 
       <motion.span
         animate={{
-          y: [0, 25, 0],
+          y: [0, 15, 0],
           transition: { repeat: Infinity, duration: 2 },
         }}
       >
