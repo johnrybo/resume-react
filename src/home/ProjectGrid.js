@@ -7,12 +7,13 @@ function ProjectGrid() {
     <div className="ProjectGrid">
       {projects.map((project) => (
         <motion.div className="Project" whileHover={{ scale: 1.05 }}>
-          <h2>{project.title}</h2>
           <img className="projectImage" src={project.image} alt="" />
+          <h2>{project.title}</h2>
           <div className="projectLinks">
             <span>
               <a href={project.gitHub}>GitHub</a>
             </span>
+            <span style={{fontSize: '2rem'}}>&nbsp;|&nbsp;</span>
             <span>
               <a href={project.demo}>Demo</a>
             </span>

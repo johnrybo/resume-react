@@ -177,10 +177,9 @@ body {
 }
 
 .projectLinks {
-  padding: 1rem;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
