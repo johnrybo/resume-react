@@ -6,19 +6,19 @@ function ProjectGrid() {
   return (
     <div className="ProjectGrid">
       {projects.map((project) => (
-        <motion.div className="Project" whileHover={{ scale: 1.05 }}>
+        <div style={{backgroundColor: project.backgroundColor}} className="Project" >
           <img className="projectImage" src={project.image} alt="" />
           <h2>{project.title}</h2>
           <div className="projectLinks">
-            <span>
+            <motion.span whileHover={{ scale: 1.1 }}>
               <a href={project.gitHub}>GitHub</a>
-            </span>
+            </motion.span>
             <span style={{fontSize: '2rem'}}>&nbsp;|&nbsp;</span>
-            <span>
+            <motion.span whileHover={{ scale: 1.1 }}>
               <a href={project.demo}>Demo</a>
-            </span>
+            </motion.span>
           </div>
-        </motion.div>
+        </div>
       ))}
     </div>
   );
