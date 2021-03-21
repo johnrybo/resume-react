@@ -10,8 +10,6 @@ function Header(props) {
       <nav className="LeftHeaderContainer">
         <motion.a
           whileHover={{ scale: 1.2 }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 2 } }}
         >
           <Link to={props.link}>{props.title}</Link>
         </motion.a>
@@ -20,8 +18,6 @@ function Header(props) {
         <motion.a
           href="https://github.com/johnrybo"
           whileHover={{ scale: 1.2 }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 2 } }}
         >
           <FaGithub />
         </motion.a>
@@ -29,8 +25,6 @@ function Header(props) {
         <motion.a
           href="https://www.linkedin.com/in/johnrybo/"
           whileHover={{ scale: 1.2 }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, transition: { duration: 2 } }}
         >
           <FaLinkedin />
         </motion.a>
