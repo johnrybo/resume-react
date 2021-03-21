@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdMail } from 'react-icons/md'
 
 function Header(props) {
   return (
@@ -15,6 +16,14 @@ function Header(props) {
         </motion.a>
       </nav>
       <nav className="RightHeaderContainer">
+
+        <motion.a
+          href="mailto:johnrybo@gmail.com"
+          whileHover={{ scale: 1.2 }}
+        >
+          <MdMail />
+        </motion.a>
+
         <motion.a
           href="https://github.com/johnrybo"
           whileHover={{ scale: 1.2 }}
