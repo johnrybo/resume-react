@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 850px) {
-  .education h2, .work h2 {
+  .about h2, .education h2, .work h2 {
     margin: 1rem 0 0 0;
     font-size: 1.7rem;
   }
@@ -91,7 +91,7 @@
     width: auto;
   }
 
-  .education h2, .work h2 {
+  .about h2, .education h2, .work h2 {
     margin: 1rem 0 0 0;
     font-size: 1.3rem;
   }
