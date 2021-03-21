@@ -113,18 +113,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* GitHub och LinkedIn */
-.PresentationLinks {
-  margin-top: 0.5rem;
-}
-
-.Presentation a {
-  color: var(--main-bg-color);
-  font-size: 2rem;
-  margin: 0.5rem;
-  display: inline-block;
-}
-
 /* Scrolla vidare för att se mina projekt */
 .Presentation p {
   font-size: 1rem;
