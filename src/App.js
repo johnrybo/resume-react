@@ -3,21 +3,21 @@ import { AnimatePresence } from "framer-motion";
 
 import Header from "./Header";
 import Cv from "./cv/Cv";
-import Home from './home/Home'
+import Home from "./home/Home";
 
 function App() {
-
   const location = useLocation();
 
   return (
     <div className="App">
-      <Header />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
           <Route exact path="/">
+            <Header title='CV' link='/cv' />
             <Home />
           </Route>
           <Route path="/cv">
+            <Header title='Hem' link='/'/>
             <Cv />
           </Route>
         </Switch>

@@ -2,19 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Header() {
+function Header(props) {
   return (
-    <div className="Header">
-      <div className="HeaderContainer">
+    <nav className="Header">
         <motion.a whileHover={{ scale: 1.2 }}>
-          <Link to="/">Hem</Link>
+          <Link to={props.link}>{props.title}</Link>
         </motion.a>
-        <span style={{fontSize: '1.5rem'}}>&nbsp;|&nbsp;</span>
-        <motion.a whileHover={{ scale: 1.2 }}>
-          <Link to="/cv">CV</Link>
-        </motion.a>
-      </div>
-    </div>
+    </nav>
   );
 }
 
