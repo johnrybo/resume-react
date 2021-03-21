@@ -73,6 +73,10 @@
     width: 70vw;
   }
 
+  .about h2, .skills h2, .education h2, .work h2 {
+    font-size: 1.3rem;
+  }
+
   .profilePic {
     height: 10rem;
     width: auto;
