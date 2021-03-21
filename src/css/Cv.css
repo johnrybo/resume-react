@@ -38,19 +38,19 @@
 .education h3, .work h3 {
   margin: 1.5rem 0 1.5rem 0;
   font-size: 1.4rem;
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .skills h4, .education h4, .work h4 {
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: 400;
   margin-top: .5rem;
   margin-bottom: .5rem;
 }
 
 .education h5 {
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: 400;
   margin-top: .5rem;
   margin-bottom: 1.5rem;
 }
@@ -80,12 +80,10 @@
   
   .skills h3, .education h3, .work h3 {
     font-size: 1.2rem;
-    font-weight: lighter;
   }
   
   .skills h4, .education h4, .work h4 {
     font-size: 1rem;
-    font-weight: lighter;
     color: #0d0d0b;
   }
 }
