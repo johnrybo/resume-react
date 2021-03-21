@@ -41,7 +41,7 @@
     text-decoration: none;
     color: var(--main-text-color);
     font-family: "Italiana", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     line-height: 2rem;
   }
@@ -73,6 +73,8 @@
   .RightHeaderContainer a {
     margin-left: 1rem;
   }
+
+    /*************** Footer ***************/
 
   .Footer {
     width: 100%;
