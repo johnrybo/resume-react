@@ -40,9 +40,9 @@ body {
 .Header a {
   text-decoration: none;
   color: var(--main-text-color);
-  font-family: "Italiana", serif;
+  /* font-family: "Italiana", serif; */
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .LeftHeaderContainer {
