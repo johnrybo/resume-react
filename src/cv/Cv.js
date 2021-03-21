@@ -6,6 +6,8 @@ import Education from "./Education";
 import Work from "./Work";
 import About from "./About";
 
+import FadeInWhenVisible from "../FadeInWhenVisible";
+
 const containerVariants = {
   hidden: {
     opacity: 0,
@@ -40,9 +42,16 @@ export default function Cv() {
         initial={{ opacity: 0, y: -25 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
       ></motion.img>
+
+      <FadeInWhenVisible>
         <Education />
+      </FadeInWhenVisible>
+      <FadeInWhenVisible>
         <Work />
+      </FadeInWhenVisible>
+      <FadeInWhenVisible>
         <About />
+      </FadeInWhenVisible>
     </motion.div>
   );
 }
