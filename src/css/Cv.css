@@ -30,59 +30,45 @@
   line-height: 1.5;
 }
 
-.about h2, .education h2, .work h2 {
-  margin: 1rem 0 0 0;
+.about h2, .education h2, .skills h2, .work h2 {
   font-size: 1.8rem;
 }
 
-.skills h2 {
-  margin: 1rem 0 1.5rem 0;
-  font-size: 1.8rem;
-}
-
-.skills h4, .education h4, .work h4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
-  font-weight: lighter;
+.about h2, .skills h2 {
+  margin-bottom: 1.5rem;
 }
 
 .education h3, .work h3 {
-  margin: 1.5rem 0 1rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   font-size: 1.4rem;
   font-weight: lighter;
 }
 
-/* -------------- Media queries -------------- */
-
-@media (max-width: 1200px) {
-  .Cv {
-    grid-template-areas:
-      "education"
-      "work"
-      "skills";
-  }
+.skills h4, .education h4, .work h4 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
+.education h5 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* -------------- Media queries -------------- */
+
 @media (max-width: 850px) {
-  .about h2, .education h2, .work h2 {
-    margin: 1rem 0 0 0;
-    font-size: 1.7rem;
-  }
 
-  .skills h2 {
-    margin: 1rem 0 1.5rem 0;
-    font-size: 1.7rem;
-  }
-
-  .skills h2, .education h2, .work h2 {
-    margin: 1.5rem 0 1rem 0;
-    font-size: 1.3rem;
+  .about h2, .skills h2, .education h2, .work h2 {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 650px) {
   .Cv > * {
-    margin: 1rem 0 1rem 0;
     width: 70vw;
   }
 
@@ -90,25 +76,13 @@
     height: 10rem;
     width: auto;
   }
-
-  .about h2, .education h2, .work h2 {
-    margin: 1rem 0 0 0;
-    font-size: 1.3rem;
-  }
-  
-  .skills h2 {
-    margin: 1rem 0 1.5rem 0;
-    font-size: 1.3rem;
-  }
   
   .skills h3, .education h3, .work h3 {
-    margin: 1.5rem 0 1rem 0;
     font-size: 1.2rem;
     font-weight: lighter;
   }
   
   .skills h4, .education h4, .work h4 {
-    margin: 0 0 0.5rem 0;
     font-size: 1rem;
     font-weight: lighter;
     color: #0d0d0b;
