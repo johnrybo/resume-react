@@ -1,3 +1,4 @@
+import './css/App.css';
 import './css/Home.css';
 import './css/Cv.css';
 
