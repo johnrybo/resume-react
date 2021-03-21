@@ -111,6 +111,10 @@
   color: white;
 }
 
+.Line {
+  font-size: 2rem;
+}
+
 /* -------------- Media queries -------------- */
 
 @media (max-width: 1600px) {
@@ -191,6 +195,19 @@
 
   .projectImage {
     width: 85vw;
+  }
+
+  .Project h2 {
+    font-size: 2rem;
+    margin-bottom: .6rem;
+  }
+
+  .Project a {
+    font-size: 1rem;
+  }
+
+  .Line {
+    font-size: 1.5rem;
   }
 }
 

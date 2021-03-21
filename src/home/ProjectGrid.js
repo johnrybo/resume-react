@@ -19,7 +19,7 @@ function ProjectGrid() {
               <motion.span whileHover={{ scale: 1.1 }}>
                 <a href={project.gitHub}>GitHub</a>
               </motion.span>
-              <span style={{ fontSize: "2rem" }}>&nbsp;|&nbsp;</span>
+              <span className="Line">&nbsp;|&nbsp;</span>
               <motion.span whileHover={{ scale: 1.1 }}>
                 <a href={project.demo}>Demo</a>
               </motion.span>
