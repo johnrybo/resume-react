@@ -18,6 +18,7 @@
   background-image: url(../images/pattern2.jpg);
   background-size: cover;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .Container2 {
@@ -92,6 +93,7 @@
   width: 40vw;
   height: auto;
   display: block;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .projectLinks {

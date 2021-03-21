@@ -14,27 +14,33 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #CCC8C6;
+  background-color: #E6E3DF;
   padding: 2rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .profilePic {
-  height: 10rem;
+  height: 13rem;
   width: auto;
   border-radius: 50%;
+  padding: 0;
 }
 
-.education h2, .work h2 {
+.about p {
+  line-height: 1.5;
+}
+
+.about h2, .education h2, .work h2 {
   margin: 1rem 0 0 0;
   font-size: 1.8rem;
 }
 
-.about h2 {
+.skills h2 {
   margin: 1rem 0 1.5rem 0;
   font-size: 1.8rem;
 }
 
-.about h4, .education h4, .work h4 {
+.skills h4, .education h4, .work h4 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
   font-weight: lighter;
@@ -53,7 +59,7 @@
     grid-template-areas:
       "education"
       "work"
-      "about";
+      "skills";
   }
 }
 
@@ -63,12 +69,12 @@
     font-size: 1.7rem;
   }
 
-  .about h2 {
+  .skills h2 {
     margin: 1rem 0 1.5rem 0;
     font-size: 1.7rem;
   }
 
-  .about h2, .education h2, .work h2 {
+  .skills h2, .education h2, .work h2 {
     margin: 1.5rem 0 1rem 0;
     font-size: 1.3rem;
   }
@@ -90,18 +96,18 @@
     font-size: 1.3rem;
   }
   
-  .about h2 {
+  .skills h2 {
     margin: 1rem 0 1.5rem 0;
     font-size: 1.3rem;
   }
   
-  .about h3, .education h3, .work h3 {
+  .skills h3, .education h3, .work h3 {
     margin: 1.5rem 0 1rem 0;
     font-size: 1.2rem;
     font-weight: lighter;
   }
   
-  .about h4, .education h4, .work h4 {
+  .skills h4, .education h4, .work h4 {
     margin: 0 0 0.5rem 0;
     font-size: 1rem;
     font-weight: lighter;

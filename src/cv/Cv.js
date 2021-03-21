@@ -2,9 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import profilePic from "../images/foto-480w.png";
+import About from './About'
 import Education from "./Education";
 import Work from "./Work";
-import About from "./About";
+import Skills from "./Skills";
 
 import FadeInWhenVisible from "../FadeInWhenVisible";
 
@@ -44,13 +45,16 @@ export default function Cv() {
       ></motion.img>
 
       <FadeInWhenVisible>
+        <About />
+      </FadeInWhenVisible>
+      <FadeInWhenVisible>
+        <Skills />
+      </FadeInWhenVisible>
+      <FadeInWhenVisible>
         <Education />
       </FadeInWhenVisible>
       <FadeInWhenVisible>
         <Work />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <About />
       </FadeInWhenVisible>
     </motion.div>
   );

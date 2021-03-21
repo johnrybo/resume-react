@@ -1,22 +1,15 @@
 import React from "react";
 
-const qualities = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React.js",
-  "Git",
-  "GitHub",
-];
-
 export default function About() {
   return (
     <div className="about">
-      <h2>Grejer jag kan:</h2>
-      {qualities.map((quality) => (
-        <h4>{quality}</h4>
-      ))}
+      <h2>Om mig:</h2>
+      <p>
+        Blivande front end-utvecklare som studerar på Medieinstitutet i Göteborg. Jag har
+        sedan tidigare en kandidatexamen från systemvetenskapsprogrammet på
+        Göteborgs universitet och är mycket intresserad av användarvänlig design
+        och alla de möjligheter som skapas med samhällets digitalisering.
+      </p>
     </div>
   );
 }
