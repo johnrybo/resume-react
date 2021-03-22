@@ -13,10 +13,12 @@ const qualities = [
 export default function Skills() {
   return (
     <div className="skills">
-      <h2>Tekniska färdigheter</h2>
-      {qualities.map((quality) => (
-        <h4>{quality}</h4>
-      ))}
+      <div className="cvContainer">
+        <h2>Tekniska färdigheter</h2>
+        {qualities.map((quality) => (
+          <h4>{quality}</h4>
+        ))}
+      </div>
     </div>
   );
 }

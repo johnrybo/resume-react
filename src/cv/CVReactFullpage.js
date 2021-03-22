@@ -1,9 +1,6 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import FadeInWhenVisible from "../FadeInWhenVisible";
-import { motion } from "framer-motion";
-
-import profilePic from "../images/foto-480w.png";
 
 import Skills from "./Skills";
 import Education from "./Education";
@@ -36,15 +33,6 @@ export default function CVFullpageWrapper() {
         return (
           <div id="fullpage-wrapper">
             <div className="section">
-              <div style = {{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
-                <motion.img
-                  className="profilePic"
-                  src={profilePic}
-                  alt=""
-                  initial={{ opacity: 0, y: -25 }}
-                  animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
-                ></motion.img>
-              </div>
               <FadeInWhenVisible>
                 <About />
               </FadeInWhenVisible>
