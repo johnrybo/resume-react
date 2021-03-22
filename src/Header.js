@@ -11,9 +11,9 @@ export default function Header(props) {
   return (
     <nav className="Header">
       <nav className="LeftHeaderContainer">
-        <motion.a whileHover={{ scale: 1.2 }}>
+        <motion.span whileHover={{ scale: 1.2 }}>
           <Link to={props.link}>{props.title}</Link>
-        </motion.a>
+        </motion.span>
       </nav>
       <nav className="RightHeaderContainer">
         <motion.a href="mailto:johnrybo@gmail.com" whileHover={{ scale: 1.2 }}>
