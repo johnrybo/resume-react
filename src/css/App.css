@@ -31,6 +31,9 @@ body {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
 }
 
 .LeftHeaderContainer a,

@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
+
+
 export default function Header(props) {
   return (
     <nav className="Header">
