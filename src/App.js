@@ -5,7 +5,7 @@ import Header from "./Header";
 import Cv from "./cv/Cv";
 import Home from "./home/Home";
 
-function App() {
+export default function App() {
   const location = useLocation();
 
   return (
@@ -13,11 +13,11 @@ function App() {
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
           <Route exact path="/">
-            <Header title='CV' link='/cv' />
+            <Header title="CV" link="/cv" />
             <Home />
           </Route>
           <Route path="/cv">
-            <Header title='Hem' link='/'/>
+            <Header title="Hem" link="/" />
             <Cv />
           </Route>
         </Switch>
@@ -25,5 +25,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,15 +1,11 @@
 import React from "react";
-
 import { motion } from "framer-motion";
-
 import { AiOutlineArrowDown } from "react-icons/ai";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 
-function Presentation() {
+export default function Presentation() {
   return (
     <div className="Presentation">
       <div className="Container">
-
         <div className="Container2">
           <motion.h1
             initial={{ y: -50, opacity: 0 }}
@@ -39,5 +35,3 @@ function Presentation() {
     </div>
   );
 }
-
-export default Presentation;

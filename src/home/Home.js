@@ -20,7 +20,7 @@ const containerVariants = {
   },
 };
 
-function Home() {
+export default function Home() {
   return (
     <motion.div
       className="Home"
@@ -34,5 +34,3 @@ function Home() {
     </motion.div>
   );
 }
-
-export default Home;

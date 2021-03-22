@@ -3,24 +3,18 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdMail } from 'react-icons/md'
+import { MdMail } from "react-icons/md";
 
-function Header(props) {
+export default function Header(props) {
   return (
     <nav className="Header">
       <nav className="LeftHeaderContainer">
-        <motion.a
-          whileHover={{ scale: 1.2 }}
-        >
+        <motion.a whileHover={{ scale: 1.2 }}>
           <Link to={props.link}>{props.title}</Link>
         </motion.a>
       </nav>
       <nav className="RightHeaderContainer">
-
-        <motion.a
-          href="mailto:johnrybo@gmail.com"
-          whileHover={{ scale: 1.2 }}
-        >
+        <motion.a href="mailto:johnrybo@gmail.com" whileHover={{ scale: 1.2 }}>
           <MdMail />
         </motion.a>
 
@@ -41,5 +35,3 @@ function Header(props) {
     </nav>
   );
 }
-
-export default Header;

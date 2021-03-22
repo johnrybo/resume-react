@@ -108,7 +108,7 @@
   text-align: center;
   font-weight: 400;
   text-decoration: none;
-  color: white;
+  color: var(--projects-text-color);
 }
 
 .Line {
@@ -153,12 +153,10 @@
 
   .Presentation h1 {
     margin-top: 1.5rem;
-    /* color: var(--main-text-color); */
   }
 
   .Presentation h2 {
     margin-bottom: 1.5rem;
-    /* color: var(--main-text-color); */
   }
 
   .Project h2 {
@@ -199,7 +197,7 @@
 
   .Project h2 {
     font-size: 2rem;
-    margin-bottom: .6rem;
+    margin-bottom: 0.6rem;
   }
 
   .Project a {

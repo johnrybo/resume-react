@@ -1,10 +1,9 @@
 import React from "react";
 import { projects } from "../projects";
 import FadeInWhenVisible from "../FadeInWhenVisible";
-
 import { motion } from "framer-motion";
 
-function ProjectGrid() {
+export default function ProjectGrid() {
   return (
     <div className="ProjectGrid">
       {projects.map((project) => (
@@ -30,5 +29,3 @@ function ProjectGrid() {
     </div>
   );
 }
-
-export default ProjectGrid;
