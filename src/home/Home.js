@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Presentation from "./Presentation";
 import ProjectGrid from "./ProjectGrid";
+import HomeFullpageWrapper from "./HomeReactFullpage";
 
 const containerVariants = {
   hidden: {
@@ -15,7 +16,7 @@ const containerVariants = {
     },
   },
   exit: {
-    y: "100vw",
+    x: "100vw",
     transition: { ease: "easeInOut" },
   },
 };
@@ -29,8 +30,9 @@ export default function Home() {
       animate="visible"
       exit="exit"
     >
-      <Presentation />
-      <ProjectGrid />
+      {/* <Presentation />
+      <ProjectGrid /> */}
+      <HomeFullpageWrapper />
     </motion.div>
   );
 }

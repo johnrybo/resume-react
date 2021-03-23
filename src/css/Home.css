@@ -1,7 +1,7 @@
 /*************** Presentation ***************/
 
 .Presentation {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,15 +10,24 @@
   color: var(--main-text-color);
   font-family: "Italiana", serif;
   font-weight: 600;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
+  max-height: -webkit-fill-available;
 }
 
 .Container {
   width: 50%;
-  height: 70%;
+  height: 65%;
   background-image: url(../images/pattern2.jpg);
   background-size: cover;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .Container2 {
@@ -30,6 +39,10 @@
   height: 100%;
   background-color: var(--container-bg-color);
   opacity: 0.8;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 /* John Rybo */
@@ -68,9 +81,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--projects-bg-color);
+  /* background-color: var(--projects-bg-color); */
   width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
+
+/* .ProjectGrid:nth-child(odd) {
+  background-color: #2d354d;
+}
+
+.ProjectGrid:nth-child(even) {
+  background-color: #343D59;
+} */
 
 .Project {
   display: flex;
@@ -80,6 +105,11 @@
   color: var(--projects-text-color);
   width: 100%;
   height: 100vh;
+  max-height: -webkit-fill-available;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .Project h2 {
@@ -94,6 +124,10 @@
   height: auto;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0,0,0);
 }
 
 .projectLinks {
@@ -138,16 +172,10 @@
 }
 
 @media (max-width: 950px) {
-  .Presentation {
-    justify-content: unset;
-  }
 
   .Container {
     width: 60%;
     height: 50%;
-    margin-top: 5rem;
-    justify-content: center;
-    align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   }
 

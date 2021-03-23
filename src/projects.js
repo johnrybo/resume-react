@@ -1,7 +1,7 @@
 import weatherWidget from "./images/weatherwidget-480w.png";
 import lab1 from "./images/lab-1-800w.png";
-import rainbowman from "./images/rainbowman-800w.png";
-import calendar from "./images/calendar-480w.png";
+import rainbowman from "./images/rainbowman.png";
+import calendar from "./images/calendar.png";
 
 export const projects = [
   {

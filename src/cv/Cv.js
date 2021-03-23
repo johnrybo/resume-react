@@ -1,12 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import profilePic from "../images/foto-480w.png";
-import About from './About'
-import Education from "./Education";
-import Work from "./Work";
-import Skills from "./Skills";
-
+import CVFullpageWrapper from './CVReactFullpage';
 import FadeInWhenVisible from "../FadeInWhenVisible";
 
 const containerVariants = {
@@ -22,7 +17,7 @@ const containerVariants = {
     },
   },
   exit: {
-    y: "100vh",
+    x: "100vw",
     transition: { ease: "easeInOut" },
   },
 };
@@ -36,26 +31,7 @@ export default function Cv() {
       animate="visible"
       exit="exit"
     >
-      <motion.img
-        className="profilePic"
-        src={profilePic}
-        alt=""
-        initial={{ opacity: 0, y: -25 }}
-        animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
-      ></motion.img>
-
-      <FadeInWhenVisible>
-        <About />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Skills />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Education />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Work />
-      </FadeInWhenVisible>
+      <CVFullpageWrapper />
     </motion.div>
   );
 }
