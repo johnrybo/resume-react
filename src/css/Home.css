@@ -81,13 +81,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--projects-bg-color);
+  /* background-color: var(--projects-bg-color); */
   width: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: translate3d(0,0,0);
   -webkit-transform: translate3d(0,0,0);
 }
+
+/* .ProjectGrid:nth-child(odd) {
+  background-color: #2d354d;
+}
+
+.ProjectGrid:nth-child(even) {
+  background-color: #343D59;
+} */
 
 .Project {
   display: flex;
