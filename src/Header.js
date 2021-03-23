@@ -44,6 +44,8 @@ export default function Header(props) {
         </nav>
       </div>
 
+
+      {/* Funkar inte riktigt */}
       <div className="SmallHeader">
         <motion.div whileHover={{ scale: 1.2 }}>
           {open ? (
@@ -55,6 +57,7 @@ export default function Header(props) {
           )}
         </motion.div>
       </div>
+
     </nav>
   );
 }
