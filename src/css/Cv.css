@@ -121,7 +121,7 @@
 }
 
 @media (max-width: 650px) {
-  .cvContainer {
+  .cv-container {
     width: 75vw;
   }
 
@@ -132,7 +132,7 @@
     font-size: 1.2rem;
   }
 
-  .profilePic {
+  .profile-pic {
     height: 7rem;
     width: auto;
   }
