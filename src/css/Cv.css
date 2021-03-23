@@ -53,7 +53,7 @@
 
 .cvContainer {
   width: 30rem;
-  padding: 2rem;
+  padding: 0rem 2rem 1rem 2rem;
   background-color: #e6e3df;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   backface-visibility: hidden;
@@ -66,19 +66,29 @@
   line-height: 1.5;
 }
 
+.Cv h2 {
+  margin: 0;
+}
+
 .about h2,
 .education h2,
 .skills h2,
 .work h2 {
   font-size: 1.8rem;
-  margin-top: 0.5rem;
+  background-color: #F2EFEB;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .education h3,
 .work h3 {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1rem 0 1rem 0;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .skills h4,
@@ -90,7 +100,7 @@
   margin-bottom: 0.5rem;
 }
 
-.education h5 {
+.education h5, .work h5 {
   font-size: 1rem;
   font-weight: 400;
   margin-top: 0.5rem;
@@ -114,8 +124,7 @@
 
 @media (max-width: 650px) {
   .cvContainer {
-    width: 80vw;
-    padding: 1rem;
+    width: 75vw;
   }
 
   .about h2,
@@ -133,7 +142,7 @@
   .skills h3,
   .education h3,
   .work h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .skills h4,
@@ -143,7 +152,7 @@
     color: #0d0d0b;
   }
 
-  .education h5 {
+  .education h5, .work h5 {
     font-size: .7rem;
     font-weight: 400;
     margin-top: 0.5rem;

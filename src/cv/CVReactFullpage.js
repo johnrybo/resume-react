@@ -33,9 +33,7 @@ export default function CVFullpageWrapper() {
         return (
           <div id="fullpage-wrapper">
             <div className="section">
-              <FadeInWhenVisible>
                 <About />
-              </FadeInWhenVisible>
             </div>
             <div className="section">
               <FadeInWhenVisible>
