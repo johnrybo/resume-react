@@ -14,14 +14,14 @@ export default function MobileMenu(props) {
   return (
     <motion.div whileHover={{ scale: 1.2 }}>
       {open ? (
-        <motion.div className="mobileMenu">
-          <div className="mobileMenuTop">
+        <motion.div className="mobile-menu">
+          <div className="mobile-menu-top">
             <MdClose
               style={{ marginRight: "2rem" }}
               onClick={toggleHamburgerMenu}
             />
           </div>
-          <div className="mobileMenuMain">
+          <div className="mobile-menu-main">
             <Link to={props.link}>{props.title}</Link>
             <motion.a
               href="mailto:johnrybo@gmail.com"

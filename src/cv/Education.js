@@ -3,8 +3,8 @@ import React from "react";
 export default function Education() {
   return (
     <div className="education">
-      <div className="cvContainer">
-        <h2>Utbildning</h2>
+      <div className="cv-container">
+        <h2 className="cv-h2">Utbildning</h2>
 
         <h3>Medieinstitutet Göteborg</h3>
         <h4>2020 - 2022</h4>

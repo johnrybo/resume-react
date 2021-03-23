@@ -4,10 +4,11 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Presentation() {
   return (
-    <div className="Presentation">
-      <div className="Container">
-        <div className="Container2">
+    <div className="presentation">
+      <div className="pres-outer-container">
+        <div className="pres-inner-container">
           <motion.h1
+            className="pres-h1"
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1, transition: { duration: 2 } }}
           >
@@ -15,6 +16,7 @@ export default function Presentation() {
           </motion.h1>
 
           <motion.h2
+          className="pres-h2"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1, transition: { duration: 2 } }}
           >
@@ -22,9 +24,10 @@ export default function Presentation() {
           </motion.h2>
         </div>
       </div>
-      <p>Scrolla vidare för att se mina projekt</p>
+      <p className="pres-p">Scrolla vidare för att se mina projekt</p>
 
       <motion.span
+      className="pres-span"
         animate={{
           y: [0, 15, 0],
           transition: { repeat: Infinity, duration: 2 },

@@ -3,8 +3,8 @@ import React from "react";
 export default function Work() {
   return (
     <div className="work">
-      <div className="cvContainer">
-        <h2>Arbetslivserfarenhet</h2>
+      <div className="cv-container">
+        <h2 className="cv-h2">Arbetslivserfarenhet</h2>
 
         <h3>PostNord</h3>
         <h4>2010 -</h4>

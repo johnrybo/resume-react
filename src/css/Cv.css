@@ -12,7 +12,7 @@
   -webkit-transform: translate3d(0,0,0);
 }
 
-.profilePic {
+.profile-pic {
   height: 13rem;
   width: auto;
   border-radius: 50%;
@@ -38,7 +38,7 @@
   max-height: -webkit-fill-available;
 }
 
-.cvContainer {
+.cv-container {
   width: 30rem;
   padding: 0rem 2rem 1rem 2rem;
   background-color: #e6e3df;
@@ -54,7 +54,7 @@
   font-size: 1rem;
 }
 
-.Cv h2 {
+.cv-h2 {
   margin: 0;
 }
 

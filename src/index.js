@@ -1,6 +1,4 @@
 import './css/App.css';
-import './css/Home.css';
-import './css/Cv.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

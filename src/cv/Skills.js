@@ -13,8 +13,8 @@ const skills = [
 export default function Skills() {
   return (
     <div className="skills">
-      <div className="cvContainer">
-        <h2>Tekniska färdigheter</h2>
+      <div className="cv-container">
+        <h2 className="cv-h2">Tekniska färdigheter</h2>
         {skills.map((skill) => (
           <h4 key={skill}>{skill}</h4>
         ))}

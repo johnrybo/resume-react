@@ -1,6 +1,6 @@
-/*************** Presentation ***************/
+/*************** presentation ***************/
 
-.Presentation {
+.presentation {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,12 +12,12 @@
   font-weight: 600;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   max-height: -webkit-fill-available;
 }
 
-.Container {
+.pres-outer-container {
   width: 50%;
   height: 65%;
   background-image: url(../images/pattern2.jpg);
@@ -26,78 +26,70 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-.Container2 {
+.pres-inner-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: var(--container-bg-color);
+  background-color: var(--pres-outer-container-bg-color);
   opacity: 0.8;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 /* John Rybo */
-.Presentation h1 {
+.pres-h1 {
   font-size: 9rem;
   font-weight: 400;
   margin: 0;
-  color: var(--container-text-color);
+  color: var(--pres-outer-container-text-color);
 }
 
 /* FRONTEND-UTVECKLARE */
-.Presentation h2 {
+.pres-h2 {
   font-size: 1.3rem;
   font-weight: 400;
   margin-top: 1rem;
-  color: var(--container-text-color);
+  color: var(--pres-outer-container-text-color);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Scrolla vidare för att se mina projekt */
-.Presentation p {
+.pres-p {
   font-size: 1rem;
   margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 
 /* Pil */
-.Presentation span {
+.pres-span {
   font-size: 1.5rem;
 }
 
-/*************** Project ***************/
+/*************** project ***************/
 
-.ProjectGrid {
+/* .projectGrid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: var(--projects-bg-color); */
+  background-color: var(--projects-bg-color);
   width: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
-}
-
-/* .ProjectGrid:nth-child(odd) {
-  background-color: #2d354d;
-}
-
-.ProjectGrid:nth-child(even) {
-  background-color: #343D59;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 } */
 
-.Project {
+.project {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,36 +100,37 @@
   max-height: -webkit-fill-available;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-.Project h2 {
+.project-title {
   font-size: 3rem;
   text-align: center;
   font-weight: lighter;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
-.projectImage {
+.project-image {
   width: 40vw;
   height: auto;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-.projectLinks {
+.project-links {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Project a {
+.project-a {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 400;
@@ -145,100 +138,99 @@
   color: var(--projects-text-color);
 }
 
-.Line {
+.line {
   font-size: 2rem;
 }
 
 /* -------------- Media queries -------------- */
 
 @media (max-width: 1600px) {
-  .Container {
+  .pres-outer-container {
     width: 50%;
   }
 
-  .Presentation h1 {
+  .pres-h1 {
     font-size: 6rem;
   }
 
-  .Presentation h2 {
+  .pres-h2 {
     font-size: 1.2rem;
   }
 }
 
 @media (max-width: 1200px) {
-  .Presentation h1 {
+  .pres-h1 {
     font-size: 5rem;
   }
 }
 
 @media (max-width: 950px) {
-
-  .Container {
+  .pres-outer-container {
     width: 60%;
     height: 50%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   }
 
-  .Presentation h1 {
+  .pres-h1 {
     margin-top: 1.5rem;
   }
 
-  .Presentation h2 {
+  .pres-h2 {
     margin-bottom: 1.5rem;
   }
 
-  .Project h2 {
+  .project-title {
     font-size: 2.5rem;
   }
 
-  .Project a {
+  .project-a {
     font-size: 1.3rem;
   }
 
-  .projectImage {
+  .project-image {
     width: 60vw;
   }
 }
 
 @media (max-width: 700px) {
-  .Container {
+  .pres-outer-container {
     width: 80%;
   }
 }
 
 @media (max-width: 600px) {
-  .Presentation h1 {
+  .pres-h1 {
     font-size: 4rem;
   }
 
-  .Presentation h2 {
+  .pres-h2 {
     font-size: 1rem;
   }
 
-  .Presentation p {
+  .pres-p {
     margin-top: 2rem;
   }
 
-  .projectImage {
+  .project-image {
     width: 85vw;
   }
 
-  .Project h2 {
+  .project h2 {
     font-size: 2rem;
     margin-bottom: 0.6rem;
   }
 
-  .Project a {
+  .project-h2 {
     font-size: 1rem;
   }
 
-  .Line {
+  .line {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 450px) {
-  .Presentation h1 {
+  .pres-h1 {
     font-size: 3.3rem;
   }
 }

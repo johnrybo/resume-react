@@ -3,6 +3,8 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import { motion } from "framer-motion";
 
+import '../css/Home.css';
+
 import Presentation from "./Presentation";
 import { projects } from "../projects";
 
@@ -21,19 +23,19 @@ export default function HomeReactFullPage() {
             {projects.map((project) => (
               <div key={project.title} className="section">
                 <div
-                  className="Project"
+                  className="project"
                   style={{ backgroundColor: project.backgroundColor }}
                 >
                   <FadeInWhenVisible>
-                    <img className="projectImage" src={project.image} alt="" />
-                    <h2>{project.title}</h2>
-                    <div className="projectLinks">
+                    <img className="project-image" src={project.image} alt="" />
+                    <h2 className="project-title">{project.title}</h2>
+                    <div className="project-links">
                       <motion.span whileHover={{ scale: 1.1 }}>
-                        <a href={project.gitHub}>GitHub</a>
+                        <a className="project-a" href={project.gitHub}>GitHub</a>
                       </motion.span>
-                      <span className="Line">&nbsp;|&nbsp;</span>
+                      <span className="line">&nbsp;|&nbsp;</span>
                       <motion.span whileHover={{ scale: 1.1 }}>
-                        <a href={project.demo}>Demo</a>
+                        <a className="project-a" href={project.demo}>Demo</a>
                       </motion.span>
                     </div>
                   </FadeInWhenVisible>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdMail, MdMenu, MdClose } from "react-icons/md";
+import { MdMail, MdMenu } from "react-icons/md";
 import MobileMenu from "./MobileMenu";
 
 export default function Header(props) {
@@ -13,14 +13,14 @@ export default function Header(props) {
   };
 
   return (
-    <nav className="Header">
-      <div className="LargeHeader">
-        <nav className="LeftHeaderContainer">
+    <nav className="header">
+      <div className="large-header">
+        <nav className="left-header-container">
           <motion.span whileHover={{ scale: 1.2 }}>
             <Link to={props.link}>{props.title}</Link>
           </motion.span>
         </nav>
-        <nav className="RightHeaderContainer">
+        <nav className="right-header-container">
           <motion.a
             href="mailto:johnrybo@gmail.com"
             whileHover={{ scale: 1.2 }}
@@ -46,7 +46,7 @@ export default function Header(props) {
 
 
       {/* Funkar inte riktigt */}
-      <div className="SmallHeader">
+      <div className="small-header">
         <motion.div whileHover={{ scale: 1.2 }}>
           {open ? (
             <MobileMenu title={props.title} link={props.link} />

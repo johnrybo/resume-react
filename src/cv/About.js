@@ -6,14 +6,14 @@ export default function About() {
   return (
     <div className="about">
       <motion.img
-          className="profilePic"
+          className="profile-pic"
           src={profilePic}
           alt=""
           initial={{ opacity: 0, y: -25 }}
           animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
         ></motion.img>
-      <div className="cvContainer">
-        <h2>Om mig</h2>
+      <div className="cv-container">
+        <h2 className="cv-h2">Om mig</h2>
         <p>
           Blivande front end-utvecklare som studerar på Medieinstitutet i
           Göteborg. Jag har sedan tidigare en kandidatexamen från
