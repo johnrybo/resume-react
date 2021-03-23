@@ -1,25 +1,25 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import FadeInWhenVisible from "../FadeInWhenVisible";
+import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import { motion } from "framer-motion";
 
-import Header from "../Header";
 import Presentation from "./Presentation";
 import { projects } from "../projects";
 
-export default function HomeFullpageWrapper() {
+export default function HomeReactFullPage() {
   return (
     <ReactFullpage
       licenseKey={"8F15EDB4-2CFC4019-AFB2C191-710C6599"}
-      render={() => {
+      scrollingSpeed={1000} /* Options here */
+      render={({ state, fullpageApi }) => {
         return (
-          <div id="fullpage-wrapper">
+          <ReactFullpage.Wrapper>
             <div className="section">
               <Presentation />
             </div>
 
             {projects.map((project) => (
-              <div className="section">
+              <div key={project.title} className="section">
                 <div
                   className="Project"
                   style={{ backgroundColor: project.backgroundColor }}
@@ -40,7 +40,7 @@ export default function HomeFullpageWrapper() {
                 </div>
               </div>
             ))}
-          </div>
+          </ReactFullpage.Wrapper>
         );
       }}
     />

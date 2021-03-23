@@ -1,7 +1,5 @@
+import React from "react";
 import { motion } from "framer-motion";
-import Presentation from "./Presentation";
-import ProjectGrid from "./ProjectGrid";
-import HomeFullpageWrapper from "./HomeReactFullpage";
 
 const containerVariants = {
   hidden: {
@@ -21,18 +19,16 @@ const containerVariants = {
   },
 };
 
-export default function Home() {
+export default function PageAnimation({ children }) {
   return (
     <motion.div
-      className="Home"
+      className="Cv"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
       exit="exit"
     >
-      {/* <Presentation />
-      <ProjectGrid /> */}
-      <HomeFullpageWrapper />
+      {children}
     </motion.div>
   );
 }

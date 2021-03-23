@@ -1,6 +1,6 @@
 import React from "react";
 
-const qualities = [
+const skills = [
   "HTML",
   "CSS",
   "JavaScript",
@@ -15,8 +15,8 @@ export default function Skills() {
     <div className="skills">
       <div className="cvContainer">
         <h2>Tekniska färdigheter</h2>
-        {qualities.map((quality) => (
-          <h4>{quality}</h4>
+        {skills.map((skill) => (
+          <h4 key={skill}>{skill}</h4>
         ))}
       </div>
     </div>

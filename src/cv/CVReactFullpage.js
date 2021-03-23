@@ -1,6 +1,6 @@
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import FadeInWhenVisible from "../FadeInWhenVisible";
+import FadeInWhenVisible from "../components/FadeInWhenVisible";
 
 import Skills from "./Skills";
 import Education from "./Education";
@@ -25,15 +25,16 @@ const containerVariants = {
   },
 };
 
-export default function CVFullpageWrapper() {
+export default function CVReactFullpage() {
   return (
     <ReactFullpage
       licenseKey={"8F15EDB4-2CFC4019-AFB2C191-710C6599"}
-      render={() => {
+      scrollingSpeed={1000} /* Options here */
+      render={({ state, fullpageApi }) => {
         return (
-          <div id="fullpage-wrapper">
+          <ReactFullpage.Wrapper>
             <div className="section">
-                <About />
+              <About />
             </div>
             <div className="section">
               <FadeInWhenVisible>
@@ -50,7 +51,7 @@ export default function CVFullpageWrapper() {
                 <Work />
               </FadeInWhenVisible>
             </div>
-          </div>
+          </ReactFullpage.Wrapper>
         );
       }}
     />
