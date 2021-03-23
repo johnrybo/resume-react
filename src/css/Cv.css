@@ -12,19 +12,6 @@
   -webkit-transform: translate3d(0,0,0);
 }
 
-/* .Cv > * {
-  margin: 1rem;
-  width: 30rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #e6e3df;
-  padding: 2rem;
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0,0,0);
-} */
-
 .profilePic {
   height: 13rem;
   width: auto;
@@ -64,6 +51,7 @@
 
 .about p {
   line-height: 1.5;
+  font-size: 1rem;
 }
 
 .Cv h2 {
@@ -107,6 +95,10 @@
   margin-bottom: 1.5rem;
 }
 
+#jur {
+  margin-bottom: .5rem;
+}
+
 .education h5:last-child {
   margin-bottom: 0.5rem;
 }
@@ -120,6 +112,12 @@
   .work h2 {
     font-size: 1.5rem;
   }
+
+  .about p {
+    line-height: 1.5;
+    font-size: .9rem;
+  }
+
 }
 
 @media (max-width: 650px) {
@@ -131,7 +129,7 @@
   .skills h2,
   .education h2,
   .work h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .profilePic {
@@ -142,13 +140,13 @@
   .skills h3,
   .education h3,
   .work h3 {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .skills h4,
   .education h4,
   .work h4 {
-    font-size: 1rem;
+    font-size: .9rem;
     color: #0d0d0b;
   }
 

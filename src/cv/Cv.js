@@ -1,8 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import CVFullpageWrapper from './CVReactFullpage';
-import FadeInWhenVisible from "../FadeInWhenVisible";
+import CVFullpageWrapper from "./CVReactFullpage";
+
+// import FadeInWhenVisible from "../FadeInWhenVisible";
+// import About from "./About";
+// import Skills from "./Skills";
+// import Education from "./Education";
+// import Work from "./Work";
 
 const containerVariants = {
   hidden: {
@@ -32,6 +37,23 @@ export default function Cv() {
       exit="exit"
     >
       <CVFullpageWrapper />
+
+      {/* <FadeInWhenVisible>
+        <About />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Skills />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Education />
+      </FadeInWhenVisible>
+
+      <FadeInWhenVisible>
+        <Work />
+      </FadeInWhenVisible> */}
+
     </motion.div>
   );
 }
