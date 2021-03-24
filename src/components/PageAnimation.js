@@ -19,7 +19,7 @@ const containerVariants = {
   },
 };
 
-export default function PageAnimation({ children }) {
+export default function PageAnimation(props) {
   return (
     <motion.div
       className="Cv"
@@ -28,7 +28,7 @@ export default function PageAnimation({ children }) {
       animate="visible"
       exit="exit"
     >
-      {children}
+      {props.children}
     </motion.div>
   );
 }
