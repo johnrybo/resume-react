@@ -1,18 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 import profilePic from "../images/foto-480w.png";
+
+import { CvContainer, CvCardContainer } from "./CVReactFullpage";
 
 export default function About() {
   return (
-    <div className="about">
-      <motion.img
-          className="profile-pic"
-          src={profilePic}
-          alt=""
-          initial={{ opacity: 0, y: -25 }}
-          animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
-        ></motion.img>
-      <div className="cv-container">
+    <CvContainer>
+      <ProfilePic
+        className="profile-pic"
+        src={profilePic}
+        alt=""
+        initial={{ opacity: 0, y: -25 }}
+        animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
+      ></ProfilePic>
+      <CvCardContainer>
         <h2 className="cv-h2">Om mig</h2>
         <p>
           Blivande front end-utvecklare som studerar på Medieinstitutet i
@@ -21,7 +24,24 @@ export default function About() {
           intresserad av användarvänlig design och alla de möjligheter som
           skapas med samhällets digitalisering.
         </p>
-      </div>
-    </div>
+      </CvCardContainer>
+    </CvContainer>
   );
 }
+
+const ProfilePic = styled(motion.img)`
+  height: 13rem;
+  width: auto;
+  border-radius: 50%;
+  padding: 0;
+  margin-bottom: 2rem;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+
+  @media (max-width: 650px) {
+    height: 7rem;
+    width: auto;
+  }
+`;

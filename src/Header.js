@@ -1,26 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import styled from "styled-components";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdMail, MdMenu } from "react-icons/md";
-import MobileMenu from "./MobileMenu";
+import { MdMail } from "react-icons/md";
 
 export default function Header(props) {
-  const [open, setOpen] = useState(false);
-  const toggleHamburgerMenu = () => {
-    setOpen(!open);
-  };
 
   return (
-    <nav className="header">
-      <div className="large-header">
-        <nav className="left-header-container">
+    <MainHeader>
+      <LargeHeader>
+        <LeftHeaderContainer>
           <motion.span whileHover={{ scale: 1.2 }}>
             <Link to={props.link}>{props.title}</Link>
           </motion.span>
-        </nav>
-        <nav className="right-header-container">
+        </LeftHeaderContainer>
+        <RightHeaderContainer>
           <motion.a
             href="mailto:johnrybo@gmail.com"
             whileHover={{ scale: 1.2 }}
@@ -41,23 +37,63 @@ export default function Header(props) {
           >
             <FaLinkedin />
           </motion.a>
-        </nav>
-      </div>
-
-
-      {/* Funkar inte riktigt */}
-      <div className="small-header">
-        <motion.div whileHover={{ scale: 1.2 }}>
-          {open ? (
-            <MobileMenu title={props.title} link={props.link} />
-          ) : (
-            <div onClick={toggleHamburgerMenu}>
-              <MdMenu />
-            </div>
-          )}
-        </motion.div>
-      </div>
-
-    </nav>
+        </RightHeaderContainer>
+      </LargeHeader>
+    </MainHeader>
   );
 }
+
+const MainHeader = styled.nav`
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+`;
+
+const LargeHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+`;
+
+const LeftHeaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  height: 100%;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 400;
+  vertical-align: middle;
+
+  a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+`;
+
+const RightHeaderContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+  height: 100%;
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 400;
+  vertical-align: middle;
+
+  a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: "Italiana", serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+`;
