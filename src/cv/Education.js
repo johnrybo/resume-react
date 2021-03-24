@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import { CvContainer, CvCardContainer } from "./Cv";
 
 export default function Education() {
@@ -30,7 +29,3 @@ export default function Education() {
     </CvContainer>
   );
 }
-
-const SpecialH5 = styled.h5`
-  margin-bottom: .5rem;
-`;
