@@ -123,6 +123,19 @@ export const CvCardContainer = styled.div`
     }
   }
 
+  h6 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 650px) {
+      font-size: 0.7rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+    }
+  }
+
   p {
     line-height: 1.5;
     font-size: 1rem;
