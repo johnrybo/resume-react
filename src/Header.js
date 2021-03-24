@@ -7,54 +7,43 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
 export default function Header(props) {
-
   return (
     <HeaderContainer>
-      <LargeHeader>
-        <LeftHeaderContainer>
-          <motion.span whileHover={{ scale: 1.2 }}>
-            <Link to={props.link}>{props.title}</Link>
-          </motion.span>
-        </LeftHeaderContainer>
-        <RightHeaderContainer>
-          <motion.a
-            href="mailto:johnrybo@gmail.com"
-            whileHover={{ scale: 1.2 }}
-          >
-            <MdMail />
-          </motion.a>
+      <LeftHeaderContainer>
+        <motion.span whileHover={{ scale: 1.2 }}>
+          <Link to={props.link}>{props.title}</Link>
+        </motion.span>
+      </LeftHeaderContainer>
+      <RightHeaderContainer>
+        <motion.a href="mailto:johnrybo@gmail.com" whileHover={{ scale: 1.2 }}>
+          <MdMail />
+        </motion.a>
 
-          <motion.a
-            href="https://github.com/johnrybo"
-            whileHover={{ scale: 1.2 }}
-          >
-            <FaGithub />
-          </motion.a>
+        <motion.a
+          href="https://github.com/johnrybo"
+          whileHover={{ scale: 1.2 }}
+        >
+          <FaGithub />
+        </motion.a>
 
-          <motion.a
-            href="https://www.linkedin.com/in/johnrybo/"
-            whileHover={{ scale: 1.2 }}
-          >
-            <FaLinkedin />
-          </motion.a>
-        </RightHeaderContainer>
-      </LargeHeader>
+        <motion.a
+          href="https://www.linkedin.com/in/johnrybo/"
+          whileHover={{ scale: 1.2 }}
+        >
+          <FaLinkedin />
+        </motion.a>
+      </RightHeaderContainer>
     </HeaderContainer>
   );
 }
 
 const HeaderContainer = styled.nav`
-  height: 10vh;
   position: fixed;
+  height: 10vh;
   width: 100%;
   z-index: 9;
-`;
-
-const LargeHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
 `;
 
 const LeftHeaderContainer = styled.div`
