@@ -21,7 +21,7 @@ export default function Education() {
         <h5>Systemvetenskap: Kandidatexamen (180 hp)</h5>
 
         <h4>2016</h4>
-        <SpecialH5>Juridisk grundkurs (15 hp)</SpecialH5>
+        <h6>Juridisk grundkurs (15 hp)</h6>
         <h5>Psykologi: Fortsättningskurs (30 hp)</h5>
 
         <h4>2015</h4>

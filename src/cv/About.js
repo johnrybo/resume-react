@@ -16,7 +16,7 @@ export default function About() {
         animate={{ opacity: 1, y: 0, transition: { duration: 2 } }}
       ></ProfilePic>
       <CvCardContainer>
-        <h2 className="cv-h2">Om mig</h2>
+        <h2>Om mig</h2>
         <p>
           Blivande front end-utvecklare som studerar på Medieinstitutet i
           Göteborg. Jag har sedan tidigare en kandidatexamen från
