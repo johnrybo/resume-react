@@ -144,9 +144,5 @@ export const CvCardContainer = styled.div`
       line-height: 1.5;
       font-size: 0.9rem;
     }
-
-    @media (max-width: 650px) {
-      font-size: 1.2rem;
-    }
   }
 `;

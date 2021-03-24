@@ -18,7 +18,7 @@ export default function About() {
       <CvCardContainer>
         <h2>Om mig</h2>
         <p>
-          Blivande front end-utvecklare som studerar på Medieinstitutet i
+          Blivande frontend-utvecklare som studerar på Medieinstitutet i
           Göteborg. Jag har sedan tidigare en kandidatexamen från
           systemvetenskapsprogrammet på Göteborgs universitet och är mycket
           intresserad av användarvänlig design och alla de möjligheter som
