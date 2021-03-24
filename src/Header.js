@@ -9,7 +9,7 @@ import { MdMail } from "react-icons/md";
 export default function Header(props) {
 
   return (
-    <MainHeader>
+    <HeaderContainer>
       <LargeHeader>
         <LeftHeaderContainer>
           <motion.span whileHover={{ scale: 1.2 }}>
@@ -39,11 +39,11 @@ export default function Header(props) {
           </motion.a>
         </RightHeaderContainer>
       </LargeHeader>
-    </MainHeader>
+    </HeaderContainer>
   );
 }
 
-const MainHeader = styled.nav`
+const HeaderContainer = styled.nav`
   height: 10vh;
   position: fixed;
   width: 100%;

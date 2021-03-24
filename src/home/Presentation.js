@@ -6,7 +6,7 @@ import pattern2 from "../images/pattern2.jpg";
 
 export default function Presentation() {
   return (
-    <MainPresentation>
+    <PresentationContainer>
       <PresOuterContainer>
         <PresInnerContainer>
           <motion.h1
@@ -37,11 +37,11 @@ export default function Presentation() {
       >
         <AiOutlineArrowDown />
       </motion.span>
-    </MainPresentation>
+    </PresentationContainer>
   );
 }
 
-const MainPresentation = styled.div`
+const PresentationContainer = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
