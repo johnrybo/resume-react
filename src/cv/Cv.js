@@ -1,7 +1,7 @@
 import React from "react";
-import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import styled from "styled-components";
 
+import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import ReactFullpageWrapper from "../components/ReactFullpageWrapper";
 
 import Skills from "./Skills";

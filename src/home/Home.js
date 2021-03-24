@@ -1,8 +1,8 @@
 import React from "react";
-import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
+import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import ReactFullpageWrapper from "../components/ReactFullpageWrapper";
 
 import Presentation from "./Presentation";
