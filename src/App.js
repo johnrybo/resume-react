@@ -2,8 +2,8 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 import Header from "./Header";
-import CVReactFullpage from "./cv/CVReactFullpage";
-import HomeReactFullPage from "./home/HomeReactFullpage";
+import Cv from "./cv/Cv";
+import Home from "./home/Home";
 import PageAnimation from "./components/PageAnimation";
 
 export default function App() {
@@ -16,13 +16,13 @@ export default function App() {
           <Route exact path="/">
             <Header title="CV" link="/cv" />
             <PageAnimation>
-              <HomeReactFullPage />
+              <Home />
             </PageAnimation>
           </Route>
           <Route path="/cv">
             <Header title="Hem" link="/" />
             <PageAnimation>
-              <CVReactFullpage />
+              <Cv />
             </PageAnimation>
           </Route>
         </Switch>

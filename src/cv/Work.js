@@ -1,5 +1,5 @@
 import React from "react";
-import { CvContainer, CvCardContainer } from "./CVReactFullpage";
+import { CvContainer, CvCardContainer } from "./Cv";
 
 export default function Work() {
   return (

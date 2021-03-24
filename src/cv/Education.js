@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { CvContainer, CvCardContainer } from "./CVReactFullpage";
+import { CvContainer, CvCardContainer } from "./Cv";
 
 export default function Education() {
   return (

@@ -1,51 +1,44 @@
 import React from "react";
-import ReactFullpage from "@fullpage/react-fullpage";
 import FadeInWhenVisible from "../components/FadeInWhenVisible";
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
+import ReactFullpageWrapper from "../components/ReactFullpageWrapper";
+
 import Presentation from "./Presentation";
 import { projects } from "../projects";
 
-export default function HomeReactFullPage() {
+export default function Home() {
   return (
-    <ReactFullpage
-      licenseKey={"8F15EDB4-2CFC4019-AFB2C191-710C6599"}
-      scrollingSpeed={1000} /* Options here */
-      render={({ state, fullpageApi }) => {
-        return (
-          <ReactFullpage.Wrapper>
-            <div className="section">
-              <Presentation />
-            </div>
+    <ReactFullpageWrapper>
+      <div className="section">
+        <Presentation />
+      </div>
 
-            {projects.map((project) => (
-              <div key={project.title} className="section">
-                <Project style={{ backgroundColor: project.backgroundColor }}>
-                  <FadeInWhenVisible>
-                    <img src={project.image} alt="" />
-                    <h2>{project.title}</h2>
-                    <ProjectLinks>
-                      <motion.span whileHover={{ scale: 1.1 }}>
-                        <a className="project-a" href={project.gitHub}>
-                          GitHub
-                        </a>
-                      </motion.span>
-                      <span className="line">&nbsp;|&nbsp;</span>
-                      <motion.span whileHover={{ scale: 1.1 }}>
-                        <a className="project-a" href={project.demo}>
-                          Demo
-                        </a>
-                      </motion.span>
-                    </ProjectLinks>
-                  </FadeInWhenVisible>
-                </Project>
-              </div>
-            ))}
-          </ReactFullpage.Wrapper>
-        );
-      }}
-    />
+      {projects.map((project) => (
+        <div key={project.title} className="section">
+          <Project style={{ backgroundColor: project.backgroundColor }}>
+            <FadeInWhenVisible>
+              <img src={project.image} alt="" />
+              <h2>{project.title}</h2>
+              <ProjectLinks>
+                <motion.span whileHover={{ scale: 1.1 }}>
+                  <a className="project-a" href={project.gitHub}>
+                    GitHub
+                  </a>
+                </motion.span>
+                <span className="line">&nbsp;|&nbsp;</span>
+                <motion.span whileHover={{ scale: 1.1 }}>
+                  <a className="project-a" href={project.demo}>
+                    Demo
+                  </a>
+                </motion.span>
+              </ProjectLinks>
+            </FadeInWhenVisible>
+          </Project>
+        </div>
+      ))}
+    </ReactFullpageWrapper>
   );
 }
 

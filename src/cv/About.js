@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 import profilePic from "../images/foto-480w.png";
 
-import { CvContainer, CvCardContainer } from "./CVReactFullpage";
+import { CvContainer, CvCardContainer } from "./Cv";
 
 export default function About() {
   return (
