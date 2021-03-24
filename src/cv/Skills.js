@@ -1,4 +1,5 @@
 import React from "react";
+import { CvContainer, CvCardContainer } from "./CVReactFullpage";
 
 const skills = [
   "HTML",
@@ -12,13 +13,13 @@ const skills = [
 
 export default function Skills() {
   return (
-    <div className="skills">
-      <div className="cv-container">
-        <h2 className="cv-h2">Tekniska färdigheter</h2>
+    <CvContainer>
+      <CvCardContainer>
+        <h2>Tekniska färdigheter</h2>
         {skills.map((skill) => (
           <h4 key={skill}>{skill}</h4>
         ))}
-      </div>
-    </div>
+      </CvCardContainer>
+    </CvContainer>
   );
 }

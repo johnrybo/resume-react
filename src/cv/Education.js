@@ -1,10 +1,12 @@
 import React from "react";
+import styled from "styled-components";
+import { CvContainer, CvCardContainer } from "./CVReactFullpage";
 
 export default function Education() {
   return (
-    <div className="education">
-      <div className="cv-container">
-        <h2 className="cv-h2">Utbildning</h2>
+    <CvContainer>
+      <CvCardContainer>
+        <h2>Utbildning</h2>
 
         <h3>Medieinstitutet Göteborg</h3>
         <h4>2020 - 2022</h4>
@@ -19,12 +21,16 @@ export default function Education() {
         <h5>Systemvetenskap: Kandidatexamen (180 hp)</h5>
 
         <h4>2016</h4>
-        <h5 id="jur">Juridisk grundkurs (15 hp)</h5>
+        <SpecialH5>Juridisk grundkurs (15 hp)</SpecialH5>
         <h5>Psykologi: Fortsättningskurs (30 hp)</h5>
 
         <h4>2015</h4>
         <h5>Psykologi: Grundkurs (30 hp)</h5>
-      </div>
-    </div>
+      </CvCardContainer>
+    </CvContainer>
   );
 }
+
+const SpecialH5 = styled.h5`
+  margin-bottom: .5rem;
+`;
