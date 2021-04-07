@@ -7,4 +7,4 @@ https://johnrybo.com
 React.js\
 Framer-motion\
 Fullpage.js\
-Styled-components\
+Styled-components
