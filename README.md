@@ -1,4 +1,10 @@
-## Resume
+## Resume / Portfolio
 
-Resume built with React.js\
 https://johnrybo.com
+
+### Libraries I'm using:
+
+React.js\
+Framer-motion\
+Fullpage.js\
+Styled-components\
