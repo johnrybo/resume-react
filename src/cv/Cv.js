@@ -71,6 +71,7 @@ export const CvCardContainer = styled.div`
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 850px) {
       font-size: 1.5rem;
@@ -81,6 +82,7 @@ export const CvCardContainer = styled.div`
     margin: 1rem 0 1rem 0;
     font-size: 1.4rem;
     font-weight: 600;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 650px) {
       font-size: 0.9rem;
@@ -92,6 +94,7 @@ export const CvCardContainer = styled.div`
     font-weight: 400;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 650px) {
       font-size: 0.9rem;
@@ -103,6 +106,7 @@ export const CvCardContainer = styled.div`
     font-weight: 400;
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
+    color: var(--main-text-color-darker);
 
     &:last-child {
       margin-bottom: 0.5rem;
@@ -121,6 +125,7 @@ export const CvCardContainer = styled.div`
     font-weight: 400;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 650px) {
       font-size: 0.7rem;
@@ -132,6 +137,7 @@ export const CvCardContainer = styled.div`
   p {
     line-height: 1.5;
     font-size: 1rem;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 850px) {
       line-height: 1.5;
