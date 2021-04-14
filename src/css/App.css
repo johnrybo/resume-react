@@ -4,9 +4,10 @@
 }
 
 :root {
-  --main-bg-color: #d9d5d2;
-  --main-text-color: black;
-  --pres-outer-container-bg-color: #bf4f45;
+  --main-bg-color: #DAD5D3;
+  --main-text-color: #606a8a;
+  --main-text-color-darker: #3B4666;
+  --pres-outer-container-bg-color: #2d354d;
   --pres-outer-container-text-color: white;
   --projects-bg-color: #2d354d;
   --projects-text-color: white;

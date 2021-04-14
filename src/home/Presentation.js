@@ -61,6 +61,7 @@ const PresentationContainer = styled.div`
     font-size: 1rem;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
+    color: var(--main-text-color-darker);
 
     @media (max-width: 600px) {
       margin-top: 2rem;
@@ -69,6 +70,8 @@ const PresentationContainer = styled.div`
 
   span {
     font-size: 1.5rem;
+    color: var(--main-text-color-darker);
+
   }
 `;
 
@@ -107,7 +110,7 @@ const PresInnerContainer = styled.div`
   width: 100%;
   height: 100%;
   background-color: var(--pres-outer-container-bg-color);
-  opacity: 0.8;
+  opacity: .9;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
