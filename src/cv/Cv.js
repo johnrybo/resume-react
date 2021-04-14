@@ -51,6 +51,7 @@ export const CvContainer = styled.div`
 export const CvCardContainer = styled.div`
   width: 30rem;
   padding: 0rem 2rem 1rem 2rem;
+  margin-top: 2rem;
   background-color: #e6e3df;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   backface-visibility: hidden;
@@ -68,6 +69,7 @@ export const CvCardContainer = styled.div`
     margin-left: -2rem;
     margin-right: -2rem;
     margin-bottom: 1.5rem;
+    margin-top: -1rem;
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;

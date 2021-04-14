@@ -34,7 +34,6 @@ const ProfilePic = styled(motion.img)`
   width: auto;
   border-radius: 50%;
   padding: 0;
-  margin-bottom: 2rem;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: translate3d(0, 0, 0);

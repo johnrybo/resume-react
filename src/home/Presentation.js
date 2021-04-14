@@ -78,6 +78,7 @@ const PresentationContainer = styled.div`
 const PresOuterContainer = styled.div`
   width: 50%;
   height: 65%;
+  margin-top: 2rem;
   background-image: url(${pattern2});
   background-size: cover;
   position: relative;
