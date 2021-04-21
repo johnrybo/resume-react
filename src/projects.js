@@ -32,12 +32,5 @@ export const projects = [
     backgroundColor: "#343D59",
     gitHub: "https://github.com/johnrybo/Kalender",
     demo: "https://johnrybo.github.io/Kalender/",
-  },
-  {
-    title: "Text Adventure",
-    image: lab1,
-    backgroundColor: "#2D354D",
-    gitHub: "https://github.com/johnrybo/Textbaserad-interaktiv-upplevelse",
-    demo: "https://johnrybo.github.io/Textbaserad-interaktiv-upplevelse",
-  },
+  }
 ];
