@@ -19,7 +19,7 @@ export default function About() {
         <h2>Om mig</h2>
         <p>
           Blivande frontend-utvecklare som studerar på Medieinstitutet i
-          Göteborg. Sedan tidigare har jag en kandidatexamen i Systemvetenskap
+          Göteborg. Sedan tidigare har jag en kandidatexamen i systemvetenskap
           och är mycket intresserad av ny teknik och alla de
           möjligheter som skapas med digitaliseringen i samhället. Jag ser
           mycket fram emot att ta med mig allt jag lärt mig under mina studier
