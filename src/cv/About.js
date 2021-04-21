@@ -19,13 +19,12 @@ export default function About() {
         <h2>Om mig</h2>
         <p>
           Blivande frontend-utvecklare som studerar på Medieinstitutet i
-          Göteborg. Sedan tidigare har jag en kandidatexamen från
-          systemvetenskapsprogrammet på Göteborgs universitet och är mycket
-          intresserad av ny teknik i allmänhet och alla de möjligheter som
-          skapas med digitaliseringen i samhället. Jag ser mycket fram emot att
-          ta med mig allt jag lärt mig under mina studier in i arbetslivet och
-          bidra till att bygga webbapplikationer och hemsidor med kreativ och
-          användarvänlig design.
+          Göteborg. Sedan tidigare har jag en kandidatexamen i Systemvetenskap
+          och är mycket intresserad av ny teknik och alla de
+          möjligheter som skapas med digitaliseringen i samhället. Jag ser
+          mycket fram emot att ta med mig allt jag lärt mig under mina studier
+          in i arbetslivet och bidra till att bygga webbapplikationer och
+          hemsidor med fokus på hög kreativitet och användarvänlig design.
         </p>
       </CvCardContainer>
     </CvContainer>
@@ -43,7 +42,7 @@ const ProfilePic = styled(motion.img)`
   -webkit-transform: translate3d(0, 0, 0);
 
   @media (max-width: 650px) {
-    height: 7rem;
+    height: 5.5rem;
     width: auto;
   }
 `;
