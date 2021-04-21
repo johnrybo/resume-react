@@ -20,7 +20,7 @@ export default function About() {
         <p>
           Blivande frontend-utvecklare som studerar på Medieinstitutet i
           Göteborg. Sedan tidigare har jag en kandidatexamen i systemvetenskap
-          och är mycket intresserad av ny teknik och alla de
+          och är väldigt intresserad av ny teknik och alla de
           möjligheter som skapas med digitaliseringen i samhället. Jag ser
           mycket fram emot att ta med mig allt jag lärt mig under mina studier
           in i arbetslivet och bidra till att bygga webbapplikationer och
