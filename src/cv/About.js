@@ -19,10 +19,13 @@ export default function About() {
         <h2>Om mig</h2>
         <p>
           Blivande frontend-utvecklare som studerar på Medieinstitutet i
-          Göteborg. Jag har sedan tidigare en kandidatexamen från
+          Göteborg. Sedan tidigare har jag en kandidatexamen från
           systemvetenskapsprogrammet på Göteborgs universitet och är mycket
-          intresserad av användarvänlig design och alla de möjligheter som
-          skapas med samhällets digitalisering.
+          intresserad av ny teknik i allmänhet och alla de möjligheter som
+          skapas med digitaliseringen i samhället. Jag ser mycket fram emot att
+          ta med mig allt jag lärt mig under mina studier in i arbetslivet och
+          bidra till att bygga webbapplikationer och hemsidor med kreativ och
+          användarvänlig design.
         </p>
       </CvCardContainer>
     </CvContainer>
