@@ -1,10 +1,17 @@
 import weatherWidget from "./images/weatherwidget-480w.png";
-import lab1 from "./images/lab-1-800w.png";
+import chatapp from "./images/chatapp.png"
 import rainbowman from "./images/rainbowman.png";
 import calendar from "./images/calendar.png";
 import printyprint from './images/printyprint.png'
 
 export const projects = [
+  {
+    title: "Chat App",
+    image: chatapp,
+    backgroundColor: "#343D59",
+    gitHub: "https://github.com/johnrybo/lab-3-socket-chat",
+    demo: "https://chattt-appp.herokuapp.com/",
+  },
   {
     title: "Rainbow Man",
     image: rainbowman,
