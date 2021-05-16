@@ -24,7 +24,7 @@ export default function About() {
           möjligheter som skapas med digitaliseringen i samhället. Jag ser
           mycket fram emot att ta med mig allt jag lärt mig under mina studier
           in i arbetslivet och bidra till att bygga webbapplikationer och
-          hemsidor med fokus på hög kreativitet och användarvänlig design.
+          hemsidor med hög funktionalitet och användarvänlig design.
         </p>
       </CvCardContainer>
     </CvContainer>
