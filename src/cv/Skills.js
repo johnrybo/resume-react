@@ -9,6 +9,8 @@ const skills = [
   "React.js",
   "Git",
   "GitHub",
+  "Figma",
+  "Webflow"
 ];
 
 export default function Skills() {
