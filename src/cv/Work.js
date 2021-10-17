@@ -7,6 +7,10 @@ export default function Work() {
       <CvCardContainer>
         <h2>Arbetslivserfarenhet</h2>
 
+        <h3>Fictive Reality</h3>
+        <h4>2021</h4>
+        <h5>Praktik: Frontend-utvecklare</h5>
+
         <h3>PostNord</h3>
         <h4>2010 -</h4>
         <h5>Brevbärare</h5>
