@@ -3,8 +3,15 @@ import chatapp from "./images/chatapp.png"
 import rainbowman from "./images/rainbowman.png";
 import calendar from "./images/calendar.png";
 import printyprint from './images/printyprint.png'
+import fictivereality from "./images/fictivereality.png"
 
 export const projects = [
+  {
+    title: "Fictive Reality",
+    image: fictivereality,
+    backgroundColor: "#343D59",
+    live: "https://fictivereality.webflow.io/",
+  },
   {
     title: "Rainbow Man",
     image: rainbowman,

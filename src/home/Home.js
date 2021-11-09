@@ -22,17 +22,33 @@ export default function Home() {
               <img src={project.image} alt="" />
               <h2>{project.title}</h2>
               <ProjectLinks>
-                <motion.span whileHover={{ scale: 1.1 }}>
-                  <a className="project-a" href={project.gitHub}>
-                    GitHub
-                  </a>
-                </motion.span>
-                <span className="line">&nbsp;|&nbsp;</span>
-                <motion.span whileHover={{ scale: 1.1 }}>
-                  <a className="project-a" href={project.demo}>
-                    Demo
-                  </a>
-                </motion.span>
+                {project.live ? (
+                  <motion.span whileHover={{ scale: 1.1 }}>
+                    <a className="project-a" href={project.live}>
+                      Live site
+                    </a>
+                  </motion.span>
+                ) : null}
+
+                {project.gitHub ? (
+                  <motion.span whileHover={{ scale: 1.1 }}>
+                    <a className="project-a" href={project.gitHub}>
+                      GitHub
+                    </a>
+                  </motion.span>
+                ) : null}
+
+                {project.gitHub || project.demo ? (
+                  <span className="line">&nbsp;|&nbsp;</span>
+                ) : null}
+
+                {project.demo ? (
+                  <motion.span whileHover={{ scale: 1.1 }}>
+                    <a className="project-a" href={project.demo}>
+                      Demo
+                    </a>
+                  </motion.span>
+                ) : null}
               </ProjectLinks>
             </FadeInWhenVisible>
           </Project>
