@@ -10,7 +10,7 @@ export const projects = [
     title: "Fictive Reality",
     image: fictivereality,
     backgroundColor: "#343D59",
-    live: "https://fictivereality.webflow.io/",
+    live: "https://fictivereality.com/",
   },
   {
     title: "Rainbow Man",
