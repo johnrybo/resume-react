@@ -1,11 +1,15 @@
-import React from "react";
-import { CvContainer, CvCardContainer } from "./Cv";
+import React from 'react';
+import { CvContainer, CvCardContainer } from './Cv';
 
 export default function Work() {
   return (
     <CvContainer>
       <CvCardContainer>
         <h2>Arbetslivserfarenhet</h2>
+
+        <h3>Amoeba / Weightpoint</h3>
+        <h4>2022</h4>
+        <h5>Praktik: Frontend-utvecklare</h5>
 
         <h3>Fictive Reality</h3>
         <h4>2021</h4>
